@@ -51,7 +51,7 @@ gcc prime_checker.c -o prime_checker
 
 ## 👤 Student Information
 
-* **Name:** [Your Name]
+* **Name:** Suleman Ahmed Shuvo
 * **Student ID:** [Your ID]
 * **Batch / Academic Year:** [Your Batch]
 * **Department of Computer Science and Engineering**  
