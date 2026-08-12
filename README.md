@@ -52,8 +52,9 @@ gcc prime_checker.c -o prime_checker
 ## 👤 Student Information
 
 * **Name:** Suleman Ahmed Shuvo
-* **Student ID:** [Your ID]
-* **Batch / Academic Year:** [Your Batch]
+* **Roll:** 43
+* **Batch:** CSE-19
+* **Session:** 2025-26
 * **Department of Computer Science and Engineering**  
   Sylhet Engineering College, Sylhet, Bangladesh [1]
 
