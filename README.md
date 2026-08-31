@@ -21,11 +21,14 @@ This repository contains C programming assignments and lab tasks for the **Struc
 
 ---
 
-## 📂 Repository Contents
+## 📂 Repository Sections
 
-| File Name | Description | Status |
-| :--- | :--- | :--- |
-| [`prime_checker.c`](./prime_checker.c) | A robust C program that takes a positive integer input and determines whether it is a prime number. | Completed & Tested |
+### 1. Lab Assignments
+* [`prime_checker.c`](./prime_checker.c) - A robust C program that takes a positive integer input and determines whether it is a prime number.
+
+### 2. Practice Exercises (w3resource)
+* [**Basic Declarations and Expressions**](./Basic_Declarations_and_Expressions/)
+  * Contains individual solutions for Problems 01 through 20 covering basic I/O, operators, math functions, conditionals, and expressions.
 
 ---
 
@@ -35,12 +38,12 @@ To compile and run any of the C programs in this repository, ensure you have a C
 
 ```bash
 # Clone the repository
-git clone https://github.com/cyanoge1-netizen/cse-structured-programming-assignment.git
+git clone git@github.com:cyanoge1-netizen/cse-structured-programming-assignment.git
 
 # Navigate into the directory
 cd cse-structured-programming-assignment
 
-# Compile the prime checker program
+# Compile a program
 gcc prime_checker.c -o prime_checker
 
 # Run the compiled executable
