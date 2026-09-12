@@ -30,6 +30,10 @@ This repository contains C programming assignments and lab tasks for the **Struc
 * [**Basic Declarations and Expressions**](./Basic_Declarations_and_Expressions/)
   * Contains individual solutions for Problems 01 through 20 covering basic I/O, operators, math functions, conditionals, and expressions.
 
+### 3. W3Schools C Tutorial Examples (Up to Pointers)
+* [**W3Schools C Tutorial**](./W3Schools_C_Tutorial/)
+  * Comprehensive example implementations covering 14 core chapters from basic syntax, variables, operators, booleans, conditions, and loops to arrays, strings, user input, and pointers.
+
 ---
 
 ## 🚀 Getting Started & Compilation
