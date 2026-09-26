@@ -34,9 +34,9 @@ cse-structured-programming-assignment/
 ├── README.md                                  # Repository overview and index
 ├── prime_checker.c                            # Lab exercise: efficient prime number check
 │
-├── Assignment_01/ -> W3Schools_C_Tutorial/    # Assignment 1: Core C Tutorial (Chapters 01-14)
+├── Assignment_01/                             # Assignment 1: W3Schools Basics to Loops
 │   ├── README.md                              # Dedicated index, notes, and compilation guide
-│   └── [01-14]_*/                             # 57 programs from basic syntax up to pointers
+│   └── [01-25]_*.c                            # 25 sequential problems covering basics up to loops
 │
 ├── Assignment_02/                             # Assignment 2: W3Schools C More Section
 │   ├── README.md                              # Detailed problem index & topic explanations
@@ -68,9 +68,9 @@ cse-structured-programming-assignment/
 │   ├── 21_fixed_width_integer_types.c         # <stdint.h> types (int8_t, uint8_t, etc.)
 │   └── 22_fixed_width_memory_optimization.c   # Saving memory with uint8_t in telemetry data
 │
-├── W3Schools_Basics_to_Loops/                  # Foundational exercises (01 to 25)
-│   ├── README.md                              # Problem table
-│   └── [01-25]_*.c                            # Practice programs from basics up to nested loops
+├── W3Schools_C_Tutorial/                       # Reference Manual: Core chapters (01 through 14)
+│   ├── README.md                              # Chapter index up to pointers
+│   └── [01-14]_*/                             # Folders for variables, loops, arrays, strings, etc.
 │
 └── Basic_Declarations_and_Expressions/         # w3resource problem set (01 to 20)
     ├── README.md                              # Problem descriptions
@@ -81,19 +81,18 @@ cse-structured-programming-assignment/
 
 ## 📑 Course Assignments & Practice Sections
 
-### 1. [Assignment 1: W3Schools Core Tutorial (Chapters 01–14)](./W3Schools_C_Tutorial/)
-> *Also accessible via [`Assignment_01/`](./Assignment_01/)*
+### 1. [Assignment 1: W3Schools Basics to Loops (`Assignment_01/`)](./Assignment_01/)
+A complete sequential set of 25 foundational problems covering syntax, variables, operators, conditionals, and loops:
+* **Syntax, I/O & Types (Problems 01–07):** Program layout, newlines, format specifiers, variable reassignment, rectangle geometry, shopping receipts, and explicit casting (`(float)score / max`).
+* **Constants & Operators (Problems 08–11):** `const` variables, circle formulas, compound arithmetic (`+=`), modulo `%`, relational comparisons, `sizeof`, and `<stdbool.h>`.
+* **Conditionals & Branching (Problems 12–17):** 24-hour time greetings, security PIN verification, number parity, shorthand ternary `? :`, weekday `switch-case`, and an interactive calculator.
+* **Loop Structures & Patterns (Problems 18–25):** `while` countdowns, Yatzy dice simulations, reversing digits mathematically, `do-while` menu loops, custom stride `for` loops (`i += 2`, `i *= 2`), multiplication tables, and nested loops for 2D grids and star patterns.
 
-Covers the foundational half of the [W3Schools C Tutorial](https://www.w3schools.com/c/index.php) spanning 57 programs across 14 chapters:
-* **Chapters 01–05 (Syntax to Booleans):** Program layout, newlines, data types, `sizeof`, explicit type casting, `const` read-only variables, arithmetic/logical operators, and boolean evaluation.
-* **Chapters 06–10 (Control Flow):** `if-else` ladders, ternary expressions, multi-way `switch-case` evaluation, `while`, `do-while`, nested `for` loops, matrix coordinate generation, and `break`/`continue` loop control.
-* **Chapters 11–14 (Data Structures & Memory):** 1D/2D arrays, linear search min/max algorithms, null-terminated strings (`\0`), `<string.h>` tools, whitespace-safe line input with `fgets()`, and memory pointer mechanics (referencing with `&`, dereferencing with `*`, array decay, and pointer arithmetic).
-
-👉 See the complete index and notes in the [**Assignment 1 README**](./W3Schools_C_Tutorial/README.md).
+👉 See the complete problem index and notes in the [**Assignment 1 README**](./Assignment_01/README.md).
 
 ---
 
-### 2. [Assignment 2: W3Schools Advanced Features (C More Section)](./Assignment_02/)
+### 2. [Assignment 2: W3Schools Advanced Features (`Assignment_02/`)](./Assignment_02/)
 Complete implementations covering all 7 chapters in the [W3Schools C More](https://www.w3schools.com/c/c_date_time.php) section:
 * **Date & Time (`<time.h>`):** Epoch time retrieval, breaking it down into `struct tm` fields (year `+1900`, month `+1`, day, hour, min, sec), safe formatting with `strftime()`, and execution benchmarking with `clock()`.
 * **Random Numbers (`<stdlib.h>`):** Pseudo-random generation with `rand()`, seeding with `srand(time(NULL))`, custom range formulas, and a multi-round dice game simulator.
@@ -107,11 +106,11 @@ Complete implementations covering all 7 chapters in the [W3Schools C More](https
 
 ---
 
-### 3. [Practice: Basic Declarations & Expressions (w3resource)](./Basic_Declarations_and_Expressions/)
-Solutions to 20 foundational problems from w3resource covering basic arithmetic, quadratic equations (Bhaskara formula), coordinate Euclidean distance, and bank note breakdowns.
+### 3. [W3Schools C Tutorial: Chapter Guide (`W3Schools_C_Tutorial/`)](./W3Schools_C_Tutorial/)
+A comprehensive textbook reference manual covering 14 core chapters from basic syntax up through memory pointers (`&`, `*`, array decay, and pointer arithmetic).
 
-### 4. [Practice: W3Schools Basics to Loops](./W3Schools_Basics_to_Loops/)
-A curated sequence of 25 student-crafted exercises focusing on iterative problem-solving and loop mechanics.
+### 4. [Practice: Basic Declarations & Expressions (w3resource)](./Basic_Declarations_and_Expressions/)
+Solutions to 20 foundational problems from w3resource covering basic arithmetic, quadratic equations (Bhaskara formula), coordinate Euclidean distance, and bank note breakdowns.
 
 ### 5. [Laboratory: Prime Checker (`prime_checker.c`)](./prime_checker.c)
 A standalone laboratory task implementing an optimized $O(\sqrt{n})$ prime testing algorithm.

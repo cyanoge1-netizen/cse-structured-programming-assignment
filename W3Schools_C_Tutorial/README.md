@@ -1,11 +1,11 @@
-# <p align="center">W3Schools Core C Programming<br><sub>Assignment 01 — CSE 1101 Structured Programming Language</sub></p>
+# <p align="center">W3Schools Core C Programming<br><sub>Reference Manual — CSE 1101 Structured Programming Language</sub></p>
 
 <p align="center">
   <a href="https://www.w3schools.com/c/index.php"><img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="80" alt="ANSI C Logo"/></a>
 </p>
 
-<h1 align="center">Assignment 1: W3Schools Core C Tutorial</h1>
-<p align="center">Foundational Syntax up to Pointers & Memory Addresses (Chapters 01–14)</p>
+<h1 align="center">W3Schools C Tutorial: Chapter Guide</h1>
+<p align="center">Comprehensive Topic Implementations from Syntax to Pointers (Chapters 01–14)</p>
 
 <p align="center">
   <a href="https://www.w3schools.com/c/index.php"><img src="https://img.shields.io/badge/Tutorial-W3Schools%20C%20Core-04AA6D?style=for-the-badge&logo=w3schools&logoColor=white" alt="W3Schools C Tutorial"/></a>
