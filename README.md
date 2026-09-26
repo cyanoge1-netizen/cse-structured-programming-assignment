@@ -34,6 +34,10 @@ cse-structured-programming-assignment/
 ├── README.md                                  # Repository overview and index
 ├── prime_checker.c                            # Lab exercise: efficient prime number check
 │
+├── Assignment_01/ -> W3Schools_C_Tutorial/    # Assignment 1: Core C Tutorial (Chapters 01-14)
+│   ├── README.md                              # Dedicated index, notes, and compilation guide
+│   └── [01-14]_*/                             # 57 programs from basic syntax up to pointers
+│
 ├── Assignment_02/                             # Assignment 2: W3Schools C More Section
 │   ├── README.md                              # Detailed problem index & topic explanations
 │   ├── 01_current_time_calendar.c             # Current time and epoch seconds with time() & ctime()
@@ -64,10 +68,6 @@ cse-structured-programming-assignment/
 │   ├── 21_fixed_width_integer_types.c         # <stdint.h> types (int8_t, uint8_t, etc.)
 │   └── 22_fixed_width_memory_optimization.c   # Saving memory with uint8_t in telemetry data
 │
-├── W3Schools_C_Tutorial/                       # Core chapters (01 through 14) up to pointers
-│   ├── README.md                              # Chapter index
-│   └── [01-14]_*/                             # Folders for variables, loops, arrays, strings, etc.
-│
 ├── W3Schools_Basics_to_Loops/                  # Foundational exercises (01 to 25)
 │   ├── README.md                              # Problem table
 │   └── [01-25]_*.c                            # Practice programs from basics up to nested loops
@@ -79,25 +79,42 @@ cse-structured-programming-assignment/
 
 ---
 
-## 📑 Sections & Assignments
+## 📑 Course Assignments & Practice Sections
 
-### 1. [Assignment 2: W3Schools Advanced Features (`Assignment_02/`)](./Assignment_02/)
+### 1. [Assignment 1: W3Schools Core Tutorial (Chapters 01–14)](./W3Schools_C_Tutorial/)
+> *Also accessible via [`Assignment_01/`](./Assignment_01/)*
+
+Covers the foundational half of the [W3Schools C Tutorial](https://www.w3schools.com/c/index.php) spanning 57 programs across 14 chapters:
+* **Chapters 01–05 (Syntax to Booleans):** Program layout, newlines, data types, `sizeof`, explicit type casting, `const` read-only variables, arithmetic/logical operators, and boolean evaluation.
+* **Chapters 06–10 (Control Flow):** `if-else` ladders, ternary expressions, multi-way `switch-case` evaluation, `while`, `do-while`, nested `for` loops, matrix coordinate generation, and `break`/`continue` loop control.
+* **Chapters 11–14 (Data Structures & Memory):** 1D/2D arrays, linear search min/max algorithms, null-terminated strings (`\0`), `<string.h>` tools, whitespace-safe line input with `fgets()`, and memory pointer mechanics (referencing with `&`, dereferencing with `*`, array decay, and pointer arithmetic).
+
+👉 See the complete index and notes in the [**Assignment 1 README**](./W3Schools_C_Tutorial/README.md).
+
+---
+
+### 2. [Assignment 2: W3Schools Advanced Features (C More Section)](./Assignment_02/)
 Complete implementations covering all 7 chapters in the [W3Schools C More](https://www.w3schools.com/c/c_date_time.php) section:
-* **Date & Time (`<time.h>`):** Getting current epoch time, breaking it down into `struct tm` (year, month, day, hours, minutes, seconds), and formatting it with `strftime()`. Also includes a benchmark program measuring CPU clock cycles with `clock()`.
-* **Random Numbers (`<stdlib.h>`):** How `rand()` works, why `srand(time(NULL))` is needed for unique numbers, formulas for custom ranges, and a dice roll simulator.
-* **Macros & Preprocessor:** Constants with `#define`, parameterized macros (showing why parenthesizing arguments is critical), and conditional compilation with `#ifdef DEBUG`.
-* **Modular Code:** Splitting code into `.h` header files with include guards, `.c` source files, and a `main.c` driver.
-* **Storage Classes:** Explaining `auto`, `static` (retaining values across calls), `register`, and `extern` (sharing variables across files).
-* **Bitwise Operators:** Working directly with bits (`&`, `|`, `^`, `~`, `<<`, `>>`), binary representation, and building a real permission flag system (`READ`, `WRITE`, `EXEC`).
-* **Fixed-Width Integers (`<stdint.h>`):** Platform-independent types (`int8_t` through `uint64_t`), format specifiers, and a memory comparison demo showing over 60% memory savings.
+* **Date & Time (`<time.h>`):** Epoch time retrieval, breaking it down into `struct tm` fields (year `+1900`, month `+1`, day, hour, min, sec), safe formatting with `strftime()`, and execution benchmarking with `clock()`.
+* **Random Numbers (`<stdlib.h>`):** Pseudo-random generation with `rand()`, seeding with `srand(time(NULL))`, custom range formulas, and a multi-round dice game simulator.
+* **Macros & Preprocessor:** Constants with `#define`, parameterized macros with defensive parenthesization to prevent precedence bugs, and `#ifdef DEBUG` build toggles.
+* **Modular Code:** Splitting code into `.h` header files with include guards, `.c` implementation files, and a `main.c` driver program.
+* **Storage Classes:** Differences between local `auto`, state-retaining `static`, CPU-hinted `register`, and multi-file shared `extern`.
+* **Bitwise Operators:** Working directly with bits (`&`, `|`, `^`, `~`, `<<`, `>>`), and building a real-life POSIX file permission flag system (`READ`, `WRITE`, `EXEC`).
+* **Fixed-Width Integers (`<stdint.h>`):** Platform-independent types (`int8_t` through `uint64_t`) and a telemetry struct demo showing 62.5% memory reduction with `uint8_t`.
 
-👉 For full code explanations and notes, check out the [Assignment 2 README](./Assignment_02/README.md).
+👉 See the complete index and notes in the [**Assignment 2 README**](./Assignment_02/README.md).
 
-### 2. [W3Schools Core Tutorial (`W3Schools_C_Tutorial/`)](./W3Schools_C_Tutorial/)
-Covers Chapters 01 to 14 of the W3Schools C tutorial, from basic output and operators to multidimensional arrays, strings, user input, and pointers.
+---
 
-### 3. [Basic Declarations & Expressions (`Basic_Declarations_and_Expressions/`)](./Basic_Declarations_and_Expressions/)
-Solutions to 20 foundational problems from w3resource covering arithmetic, quadratic equations (Bhaskara formula), coordinate distances, and bank note breakdowns.
+### 3. [Practice: Basic Declarations & Expressions (w3resource)](./Basic_Declarations_and_Expressions/)
+Solutions to 20 foundational problems from w3resource covering basic arithmetic, quadratic equations (Bhaskara formula), coordinate Euclidean distance, and bank note breakdowns.
+
+### 4. [Practice: W3Schools Basics to Loops](./W3Schools_Basics_to_Loops/)
+A curated sequence of 25 student-crafted exercises focusing on iterative problem-solving and loop mechanics.
+
+### 5. [Laboratory: Prime Checker (`prime_checker.c`)](./prime_checker.c)
+A standalone laboratory task implementing an optimized $O(\sqrt{n})$ prime testing algorithm.
 
 ---
 
