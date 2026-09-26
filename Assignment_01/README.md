@@ -31,7 +31,7 @@
 * [💻 How to Compile and Run](#-how-to-compile-and-run)
   * [Single File Compilation](#single-file-compilation)
   * [Batch Verify All 25 Programs](#batch-verify-all-25-programs)
-* [👨‍🎓 About Me](#-about-me)
+* [👨‍🎓 About Me](#about-me)
 
 ---
 
@@ -129,7 +129,7 @@ done
 
 ---
 
-## 👨‍🎓 About Me
+## 👨‍🎓 About Me <a id="about-me"></a>
 
 * **Name:** [Suleman Ahmed Shuvo](https://github.com/cyanoge1-netizen)
 * **Roll:** 43

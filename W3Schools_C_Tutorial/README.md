@@ -45,7 +45,7 @@
 * [💻 How to Compile and Run](#-how-to-compile-and-run)
   * [Compile Any Single File](#compile-any-single-file)
   * [Batch Verify All 14 Chapters](#batch-verify-all-14-chapters)
-* [👨‍🎓 About Me](#-about-me)
+* [👨‍🎓 About Me](#about-me)
 
 ---
 
@@ -255,7 +255,7 @@ done
 
 ---
 
-## 👨‍🎓 About Me
+## 👨‍🎓 About Me <a id="about-me"></a>
 
 * **Name:** [Suleman Ahmed Shuvo](https://github.com/cyanoge1-netizen)
 * **Roll:** 43

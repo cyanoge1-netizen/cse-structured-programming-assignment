@@ -35,7 +35,7 @@
   * [Single File](#single-file)
   * [Multi-File Programs](#multi-file-programs)
   * [Test Everything at Once](#test-everything-at-once)
-* [👨‍🎓 About Me](#-about-me)
+* [👨‍🎓 About Me](#about-me)
 
 ---
 
@@ -199,7 +199,7 @@ done
 
 ---
 
-## 👨‍🎓 About Me
+## 👨‍🎓 About Me <a id="about-me"></a>
 
 * **Name:** [Suleman Ahmed Shuvo](https://github.com/cyanoge1-netizen)
 * **Roll:** 43
