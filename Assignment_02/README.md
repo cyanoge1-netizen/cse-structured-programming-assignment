@@ -1,207 +1,154 @@
-# <p align="center">W3Schools Advanced C Programming<br><sub>Assignment 02 — Comprehensive "C More" Section</sub></p>
+# <p align="center">W3Schools Advanced C Features<br><sub>Assignment 02 — CSE 1101 Structured Programming Language</sub></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="80" alt="ANSI C Logo"/>
+  <a href="https://www.w3schools.com/c/c_date_time.php"><img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="80" alt="ANSI C Logo"/></a>
 </p>
 
-<h1 align="center">Assignment 2: Advanced C Features & Systems Concepts</h1>
-<p align="center"><b>Chronologically Sequenced Implementations from First Principles</b></p>
+<h1 align="center">Assignment 2: W3Schools "C More" Section</h1>
+<p align="center">Full Topic Solutions, Practical Examples & Systems Programming Concepts</p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Assignment-02%20(C%20More)-blueviolet?style=for-the-badge&logo=c&logoColor=white" alt="Assignment 02"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Language-ANSI%20C%20%7C%20C99-00599C?style=for-the-badge&logo=c&logoColor=white" alt="Language"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Build-Passing%20100%25-success?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Programs-22%20Files-informational?style=for-the-badge&logo=buffer&logoColor=white" alt="Programs"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Quality-Zero%20Warnings-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Quality"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/SEC%20CSE-Batch%2019-E23D28?style=for-the-badge" alt="Batch"/></a>
+  <a href="https://www.w3schools.com/c/c_date_time.php"><img src="https://img.shields.io/badge/Tutorial-W3Schools%20C%20More-04AA6D?style=for-the-badge&logo=w3schools&logoColor=white" alt="W3Schools C More"/></a>
+  <a href="https://en.cppreference.com/w/c"><img src="https://img.shields.io/badge/Language-ANSI%20C%20(C99)-00599C?style=for-the-badge&logo=c&logoColor=white" alt="ANSI C"/></a>
+  <a href="https://gcc.gnu.org/"><img src="https://img.shields.io/badge/Compiler-GCC%2011%2B-brightgreen?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="GCC"/></a>
+  <a href="https://www.sec.ac.bd/"><img src="https://img.shields.io/badge/College-SEC%20Sylhet-E23D28?style=for-the-badge&logo=googlemaps&logoColor=white" alt="SEC Official Website"/></a>
+  <a href="https://www.sust.edu/"><img src="https://img.shields.io/badge/Affiliation-SUST-006A4E?style=for-the-badge" alt="SUST Official Website"/></a>
+  <a href="https://github.com/cyanoge1-netizen"><img src="https://img.shields.io/badge/Student-Roll%2043%20(CSE--19)-informational?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" alt="MIT License"/></a>
 </p>
 
 ---
 
-## 📌 Table of Contents
+## 📌 What is in this Assignment?
 
-* [Overview & Pedagogical Focus](#-overview--pedagogical-focus)
-* [Chronological Problem Index](#-chronological-problem-index)
-* [Technical Topic Walkthroughs](#-technical-topic-walkthroughs)
-  * [1. Date & Time Engine (`<time.h>`)](#1-date--time-engine-timeh)
-  * [2. Pseudo-Random Number Generation (`<stdlib.h>`)](#2-pseudo-random-number-generation-stdlibh)
-  * [3. Preprocessor Directives & Macro Architecture](#3-preprocessor-directives--macro-architecture)
-  * [4. Modular Programming & Multi-File Translation Units](#4-modular-programming--multi-file-translation-units)
-  * [5. C Storage Classes & Variable Lifetimes](#5-c-storage-classes--variable-lifetimes)
-  * [6. Bitwise Logic & Permission Flag Masking](#6-bitwise-logic--permission-flag-masking)
-  * [7. Portable Fixed-Width Integers (`<stdint.h>`)](#7-portable-fixed-width-integers-stdintth)
-* [Compilation & Verification Protocol](#-compilation--verification-protocol)
-* [Academic Credentials](#-academic-credentials)
+This directory contains code and practical implementations for the entire **C More** section of the [W3Schools C Tutorial](https://www.w3schools.com/c/c_date_time.php).
+
+Instead of copy-pasting small snippets, I went through each of the 7 chapters in order, turned them into full runnable programs, and added realistic use cases (like a dice rolling game, a multi-file calculator with include guards, a file permission system using bitmasks, and memory-saving structs for embedded sensors).
+
+Every single file compiles cleanly with `gcc -Wall -Wextra -lm` with zero warnings or errors.
 
 ---
 
-## 🔬 Overview & Pedagogical Focus
+## 📑 Complete Problem Index
 
-This directory contains human-crafted, clean ANSI C solutions for the advanced topics and real-world system applications covered in the **C More** section of the [W3Schools C Tutorial](https://www.w3schools.com/c/c_date_time.php).
-
-Rather than superficial snippets, each program is rephrased into an educational, student-grade implementation complete with:
-1. **First-Principles Explanations:** Clear demonstrations of memory layout, stack behavior, and hardware interaction.
-2. **Defensive Programming:** Precedence safety in macros, division-by-zero guards, and memory boundary checks.
-3. **Real-Life Systems Applications:** Embedded sensor telemetry packets, POSIX-style permission masks, dice simulators, and CPU cycle benchmarks.
-
-> [!IMPORTANT]
-> **Strict ANSI C Standard:** All files compile cleanly under `gcc -Wall -Wextra -lm` with zero warnings and zero runtime errors.
-
----
-
-## 📑 Chronological Problem Index
-
-| # | File Name | Topic / Concept | Real-World Application / Key Mechanics | Status |
+| # | File Name | Topic | What the Code Does | Status |
 |---|---|---|---|:---:|
-| **01** | [`01_current_time_calendar.c`](./01_current_time_calendar.c) | Date & Time | Raw epoch timestamp query via `time()` and human-readable string conversion via `ctime()`. | `PASS` |
-| **02** | [`02_localtime_breakdown_tm_struct.c`](./02_localtime_breakdown_tm_struct.c) | `struct tm` Decomposition | Decomposing epoch seconds into year (`+1900`), month (`+1`), day, hour, min, sec, and DST flags. | `PASS` |
-| **03** | [`03_formatted_datetime_strftime.c`](./03_formatted_datetime_strftime.c) | Timestamp Formatting | Custom buffer-safe formatting with `strftime()` (ISO 8601, 12-hour AM/PM, long formal date). | `PASS` |
-| **04** | [`04_execution_time_measurement.c`](./04_execution_time_measurement.c) | Performance Profiling | High-resolution CPU execution timing via `clock()` / `CLOCKS_PER_SEC` and wall-clock `difftime()`. | `PASS` |
-| **05** | [`05_basic_rand_generator.c`](./05_basic_rand_generator.c) | Pseudo-Random Numbers | Deterministic unseeded pseudo-random generation with `rand()` and `RAND_MAX` range inspection. | `PASS` |
-| **06** | [`06_seeded_random_generator.c`](./06_seeded_random_generator.c) | Generator Entropy Seeding | Seeding `srand(time(NULL))` once at startup and analyzing the re-seeding loop pitfall. | `PASS` |
-| **07** | [`07_bounded_range_random_numbers.c`](./07_bounded_range_random_numbers.c) | Bounded Modulo Scaling | Mapping uniform random integers into `[0, 9]`, `[1, 100]`, and signed intervals `[-20, 45]`. | `PASS` |
-| **08** | [`08_dice_roll_simulation.c`](./08_dice_roll_simulation.c) | Real-Life Game Simulation | Multi-round pair of six-sided dice simulation with sum analysis, snake eyes, and double detection. | `PASS` |
-| **09** | [`09_object_like_macros_constants.c`](./09_object_like_macros_constants.c) | Symbolic Constants | Preprocessor `#define` constants (`PI`, buffer sizes) and geometric calculations (circle, cylinder). | `PASS` |
-| **10** | [`10_function_like_macros.c`](./10_function_like_macros.c) | Parameterized Macros | Macro parameters, strict defensive parenthesization, and precedence traps (`2 + 3 * 2 + 3`). | `PASS` |
-| **11** | [`11_conditional_compilation_debug.c`](./11_conditional_compilation_debug.c) | Conditional Directives | Selective compilation paths with `#ifdef`, `#ifndef`, `#else`, and zero-overhead debug loggers. | `PASS` |
-| **12a** | [`12_calculator_module.h`](./12_calculator_module.h) | Modular Interface | Interface header file declaring calculator prototypes with `#ifndef` include guards. | `PASS` |
-| **12b** | [`12_calculator_module.c`](./12_calculator_module.c) | Modular Implementation | Concrete arithmetic logic (`add`, `subtract`, `multiply`, `divide` with zero-guard, `power`). | `PASS` |
-| **12c** | [`12_calculator_main.c`](./12_calculator_main.c) | Modular Driver Program | Multi-file consumer driver invoking modular calculator functions and testing error handlers. | `PASS` |
-| **12d** | [`12_modular_calculator_demo.c`](./12_modular_calculator_demo.c) | Standalone Concept Demo | Self-contained single-file equivalent demonstrating modular compilation architecture. | `PASS` |
-| **13** | [`13_auto_storage_class.c`](./13_auto_storage_class.c) | `auto` Storage Class | Stack frame allocation, local scope lifecycle, and inner-block variable shadowing mechanics. | `PASS` |
-| **14** | [`14_static_local_storage_class.c`](./14_static_local_storage_class.c) | `static` Storage Class | Persistent lifetime across function calls and cumulative bank transaction balance ledger. | `PASS` |
-| **15** | [`15_register_storage_class.c`](./15_register_storage_class.c) | `register` Storage Class | CPU register placement hints for high-frequency loops and `&` memory address restrictions. | `PASS` |
-| **16a** | [`16_extern_storage_class_data.c`](./16_extern_storage_class_data.c) | Multi-File Linkage Data | Global data definitions and mutator functions across independent translation units. | `PASS` |
-| **16b** | [`16_extern_storage_class_main.c`](./16_extern_storage_class_main.c) | `extern` Storage Class | Multi-file consumer declaring external variables and observing shared runtime states. | `PASS` |
-| **16c** | [`16_extern_storage_class_demo.c`](./16_extern_storage_class_demo.c) | External Scope Demo | Self-contained single-file demonstration of external scope linkage mechanics. | `PASS` |
-| **17** | [`17_bitwise_and_or_xor.c`](./17_bitwise_and_or_xor.c) | Bitwise Logic Operators | Bit-level truth tables and manipulations with AND (`&`), OR (`\|`), XOR (`^`), and 8-bit binary viewer. | `PASS` |
-| **18** | [`18_bitwise_not_and_twos_complement.c`](./18_bitwise_not_and_twos_complement.c) | Bitwise NOT & Two's Comp | One's complement bit flip (`~`) and signed two's complement arithmetic (`~x == -(x + 1)`). | `PASS` |
-| **19** | [`19_bitwise_shift_operators.c`](./19_bitwise_shift_operators.c) | Bitwise Shifts (`<<`, `>>`) | Left shift (fast multiplication by $2^k$) and right shift (integer division by $2^k$). | `PASS` |
-| **20** | [`20_bitwise_flags_and_permissions.c`](./20_bitwise_flags_and_permissions.c) | Real-Life Systems Application | POSIX-style file permissions bitmask: granting (`\|`), revoking (`& ~`), toggling (`^`), and checking (`&`). | `PASS` |
-| **21** | [`21_fixed_width_integer_types.c`](./21_fixed_width_integer_types.c) | Fixed-Width (`<stdint.h>`) | Platform-independent integer widths (`int8_t`..`uint64_t`), bit sizes, value limits, and format specifiers. | `PASS` |
-| **22** | [`22_fixed_width_memory_optimization.c`](./22_fixed_width_memory_optimization.c) | Real-Life Embedded Systems | Device telemetry packet with battery meter achieving a 62.5% memory footprint reduction with `uint8_t`. | `PASS` |
+| **01** | [`01_current_time_calendar.c`](./01_current_time_calendar.c) | Date & Time | Gets raw epoch timestamp using `time()` and prints a human-readable date string with `ctime()`. | `PASS` |
+| **02** | [`02_localtime_breakdown_tm_struct.c`](./02_localtime_breakdown_tm_struct.c) | `struct tm` | Breaks down the timestamp into individual fields (year `+1900`, month `+1`, day, hour, min, sec). | `PASS` |
+| **03** | [`03_formatted_datetime_strftime.c`](./03_formatted_datetime_strftime.c) | String Formatting | Formats date/time safely with `strftime()` into standard ISO, 12-hour AM/PM, and locale strings. | `PASS` |
+| **04** | [`04_execution_time_measurement.c`](./04_execution_time_measurement.c) | Benchmarking | Measures how many CPU clock ticks and seconds a math loop takes using `clock()` and `difftime()`. | `PASS` |
+| **05** | [`05_basic_rand_generator.c`](./05_basic_rand_generator.c) | Random Numbers | Shows default `rand()` behavior and why unseeded random numbers repeat every run. | `PASS` |
+| **06** | [`06_seeded_random_generator.c`](./06_seeded_random_generator.c) | Seeding `srand` | Uses `srand(time(NULL))` once at startup so you get different numbers each run. | `PASS` |
+| **07** | [`07_bounded_range_random_numbers.c`](./07_bounded_range_random_numbers.c) | Custom Ranges | Generates random numbers in custom ranges (`[0, 9]`, `[1, 100]`, `[-20, 45]`) using `%`. | `PASS` |
+| **08** | [`08_dice_roll_simulation.c`](./08_dice_roll_simulation.c) | Game Simulation | Rolls a pair of 6-sided dice over multiple rounds, sums the values, and checks for doubles. | `PASS` |
+| **09** | [`09_object_like_macros_constants.c`](./09_object_like_macros_constants.c) | `#define` Constants | Defines constants (`PI`, buffer sizes) and calculates circle and cylinder measurements. | `PASS` |
+| **10** | [`10_function_like_macros.c`](./10_function_like_macros.c) | Macros with Arguments | Shows why parentheses are necessary in macros (demonstrates the `SQUARE(2 + 3)` bug). | `PASS` |
+| **11** | [`11_conditional_compilation_debug.c`](./11_conditional_compilation_debug.c) | Conditional Compilation | Uses `#ifdef DEBUG_MODE` and `#ifndef` to toggle debug logging without performance penalty. | `PASS` |
+| **12a** | [`12_calculator_module.h`](./12_calculator_module.h) | Header File | Calculator function declarations with `#ifndef` include guards to avoid redefinition errors. | `PASS` |
+| **12b** | [`12_calculator_module.c`](./12_calculator_module.c) | Module Code | Implements the actual arithmetic functions (`add`, `subtract`, `multiply`, `divide`, `power`). | `PASS` |
+| **12c** | [`12_calculator_main.c`](./12_calculator_main.c) | Main Driver | Main program that includes `12_calculator_module.h` and runs arithmetic operations. | `PASS` |
+| **12d** | [`12_modular_calculator_demo.c`](./12_modular_calculator_demo.c) | Standalone Demo | Single-file demonstration of modular code principles for quick compilation. | `PASS` |
+| **13** | [`13_auto_storage_class.c`](./13_auto_storage_class.c) | `auto` Keyword | Demonstrates local stack variable lifetime, scope, and inner block variable shadowing. | `PASS` |
+| **14** | [`14_static_local_storage_class.c`](./14_static_local_storage_class.c) | `static` Local Variables | Compares regular vs `static` variables; keeps a running bank account balance. | `PASS` |
+| **15** | [`15_register_storage_class.c`](./15_register_storage_class.c) | `register` Keyword | Explains CPU register storage hints and why taking their memory address (`&`) fails. | `PASS` |
+| **16a** | [`16_extern_storage_class_data.c`](./16_extern_storage_class_data.c) | Global Data File | Defines global variables and helper functions intended to be shared across files. | `PASS` |
+| **16b** | [`16_extern_storage_class_main.c`](./16_extern_storage_class_main.c) | `extern` Keyword | Declares external variables from another file and modifies them across translation units. | `PASS` |
+| **16c** | [`16_extern_storage_class_demo.c`](./16_extern_storage_class_demo.c) | Single-File Extern Demo | Explains external linkage in a single file for self-contained testing. | `PASS` |
+| **17** | [`17_bitwise_and_or_xor.c`](./17_bitwise_and_or_xor.c) | Bitwise `&`, `\|`, `^` | Shows truth tables with a custom binary printer to see bit-level operations in action. | `PASS` |
+| **18** | [`18_bitwise_not_and_twos_complement.c`](./18_bitwise_not_and_twos_complement.c) | Bitwise `~` & Sign | Flips all bits with NOT (`~`) and verifies two's complement behavior (`~x == -(x + 1)`). | `PASS` |
+| **19** | [`19_bitwise_shift_operators.c`](./19_bitwise_shift_operators.c) | Left/Right Shifts | Fast multiplication with `<<` and division with `>>` by powers of two. | `PASS` |
+| **20** | [`20_bitwise_flags_and_permissions.c`](./20_bitwise_flags_and_permissions.c) | Permission Flags | Real-life use case: Granting, revoking, toggling, and checking file permissions with bitmasks. | `PASS` |
+| **21** | [`21_fixed_width_integer_types.c`](./21_fixed_width_integer_types.c) | `<stdint.h>` Types | Shows exact byte sizes and ranges for `int8_t` through `uint64_t`. | `PASS` |
+| **22** | [`22_fixed_width_memory_optimization.c`](./22_fixed_width_memory_optimization.c) | Memory Optimization | Telemetry struct with battery meter; saves 62.5% memory compared to generic `int`. | `PASS` |
 
 ---
 
-## 🛠️ Technical Topic Walkthroughs
+## 💡 Notes on What I Learned
 
-### 1. Date & Time Engine (`<time.h>`)
-* **Epoch Time (`time_t`):** Seconds elapsed since `1970-01-01 00:00:00 UTC`. Retrieved with `time(NULL)`.
-* **Broken-Down Time (`struct tm`):**
-  * `tm_year`: Years since 1900 (must add `1900` for actual calendar year).
-  * `tm_mon`: Month indexed `0` to `11` (must add `1` for standard month).
-  * `tm_mday`: Day of month `1` to `31`.
-  * Pointer member access uses arrow syntax: `t->tm_year`.
-* **String Formatting (`strftime`):** Buffer-safe formatting using specifiers like `%Y-%m-%d %H:%M:%S` to eliminate security risks associated with legacy functions.
+### 1. Working with Date and Time (`<time.h>`)
+* `time(NULL)` returns the number of seconds since January 1, 1970 (Unix epoch).
+* To access human-friendly values like month, year, or day, pass it to `localtime()`. This fills a `struct tm`.
+* Watch out for two common quirks:
+  * `tm_year` is years *since 1900*, so you must add `1900` to get the current year.
+  * `tm_mon` is 0-indexed (`0` = January, `11` = December), so add `1` for the normal month number.
+* `strftime()` is much safer than `ctime()` because you give it a fixed buffer size, preventing buffer overflows.
 
----
-
-### 2. Pseudo-Random Number Generation (`<stdlib.h>`)
-* **Linear Congruential Generator (LCG):** `rand()` generates deterministic numbers between `0` and `RAND_MAX` (2,147,483,647).
-* **Seeding (`srand`):** Initialized once with `srand(time(NULL))` at the start of `main()`. Seeding inside loops resets the sequence to the same starting point if multiple iterations execute within a single second.
-* **Uniform Range Formula:**
-  $$\text{Random}(min, max) = min + (\text{rand}() \pmod{max - min + 1})$$
-
----
-
-### 3. Preprocessor Directives & Macro Architecture
-* **Textual Substitution:** Preprocessor executes before compilation.
-* **Defensive Parenthesization:**
+### 2. Random Numbers in C (`<stdlib.h>`)
+* By default, `rand()` uses a fixed seed (`1`), meaning it generates the exact same numbers every time you run the program.
+* Calling `srand(time(NULL))` at the start of `main()` seeds the generator with the current time, giving different numbers on every run.
+* **Important:** Don't call `srand()` inside a loop. If the loop runs within the same second, `time(NULL)` won't change, and `rand()` will keep resetting to the same value.
+* To get a number in range `[min, max]`:
   ```c
-  /* DANGEROUS: SQUARE_BAD(2 + 3) -> 2 + 3 * 2 + 3 = 11 */
-  #define SQUARE_BAD(x) x * x
-
-  /* DEFENSIVE: SQUARE(2 + 3) -> ((2 + 3) * (2 + 3)) = 25 */
-  #define SQUARE(x)     ((x) * (x))
+  int random_val = min + rand() % (max - min + 1);
   ```
-* **Conditional Compilation:** `#ifdef DEBUG_MODE` enables zero-overhead runtime diagnostics during development and completely strips debug code from production builds.
 
----
+### 3. Preprocessor Macros
+* Macros are simple text substitutions that happen before the code is compiled.
+* When writing parameterized macros, **always wrap arguments and the whole expression in parentheses**:
+  ```c
+  #define SQUARE(x) ((x) * (x))
+  ```
+  If you wrote `#define SQUARE(x) x * x`, then `SQUARE(2 + 3)` would expand to `2 + 3 * 2 + 3 = 11`, which is completely wrong.
+* Use `#ifdef DEBUG` to add debug print statements that can easily be turned off for release builds.
 
-### 4. Modular Programming & Multi-File Translation Units
-```text
-               ┌───────────────────────────────┐
-               │ 12_calculator_module.h        │
-               │ (Prototypes + Include Guards) │
-               └──────────────┬────────────────┘
-                              │
-               ┌──────────────┴──────────────┐
-               ▼                             ▼
-┌───────────────────────────────┐  ┌───────────────────────────────┐
-│ 12_calculator_module.c        │  │ 12_calculator_main.c          │
-│ (Function Implementations)    │  │ (Application Driver)          │
-└──────────────┬────────────────┘  └──────────────┬────────────────┘
-               │                                  │
-               └──────────────┬───────────────────┘
-                              ▼
-                 [ gcc main.c module.c -o app ]
-                              ▼
-                     Binary Executable
-```
-* **Include Guards:** `#ifndef CALCULATOR_MODULE_H` prevents double-inclusion syntax errors across complex dependency trees.
+### 4. Organizing Code into Multiple Files
+In real projects, you don't dump everything into one file:
+* **Header file (`.h`):** Put function prototypes and `#define` constants here. Always wrap header files with include guards (`#ifndef HEADER_H ... #endif`) so the compiler doesn't throw redefinition errors if included more than once.
+* **Source file (`.c`):** Contains the actual function definitions. Includes its own `.h` file.
+* **Main file (`main.c`):** Contains `main()`, includes the `.h` file, and uses the functions.
+* **Compile them together:**
+  ```bash
+  gcc main.c calc.c -o my_program
+  ```
 
----
+### 5. Storage Classes
+* **`auto`**: The default for any local variable. It lives on the stack while its function or block is executing and disappears when done.
+* **`static`**: When used inside a function, the variable keeps its value across multiple function calls. It's stored in the program's data segment, not on the stack.
+* **`register`**: A suggestion to the compiler to store the variable in a CPU register for faster access. You cannot use the `&` address operator on a register variable because registers don't have memory addresses.
+* **`extern`**: Lets you access a global variable or function that was defined in another `.c` file.
 
-### 5. C Storage Classes & Variable Lifetimes
+### 6. Bitwise Operators & Bitmasking
+Computers store integers in binary. Bitwise operators let you manipulate individual bits:
+* `&` (AND): 1 only if both bits are 1.
+* `|` (OR): 1 if either bit is 1.
+* `^` (XOR): 1 if the bits are different.
+* `~` (NOT): Inverts all bits. In two's complement, `~x` equals `-(x + 1)`.
+* `<<` (Left Shift): Shifts bits left, which multiplies by powers of 2.
+* `>>` (Right Shift): Shifts bits right, which divides by powers of 2.
 
-| Storage Class | Storage Location | Default Initial Value | Scope | Lifetime |
-|---|---|---|---|---|
-| `auto` | Stack Frame | Garbage (Indeterminate) | Local Block | Duration of enclosing block |
-| `static` | Data / BSS Segment | Zero (`0`) | Local Block | Entire program execution |
-| `register` | CPU Register (Hint) | Garbage (Indeterminate) | Local Block | Duration of enclosing block (`&` illegal) |
-| `extern` | Data / BSS Segment | Zero (`0`) | Global Linkage | Entire program execution |
+**Bitmask Permission Example:**
+```c
+#define READ  (1 << 0) // 0001
+#define WRITE (1 << 1) // 0010
+#define EXEC  (1 << 2) // 0100
 
----
-
-### 6. Bitwise Logic & Permission Flag Masking
-```text
-Bitwise Operations:
-  a = 6  (0000 0110)
-  b = 3  (0000 0011)
-  --------------------
-  a & b = 2  (0000 0010)  [AND: 1 only where both bits are 1]
-  a | b = 7  (0000 0111)  [OR:  1 where either bit is 1]
-  a ^ b = 5  (0000 0101)  [XOR: 1 where bits differ]
-  ~a    = -7 (1111 1001)  [NOT: Two's complement ~x == -(x + 1)]
-  a << 1= 12 (0000 1100)  [Left Shift: Multiplies by 2]
-  a >> 1= 3  (0000 0011)  [Right Shift: Divides by 2]
-```
-* **Bitmask Permission System:**
-  * **Grant Permission:** `perms |= FLAG_WRITE`
-  * **Revoke Permission:** `perms &= ~FLAG_WRITE`
-  * **Toggle Permission:** `perms ^= FLAG_ADMIN`
-  * **Test Permission:** `if (perms & FLAG_READ)`
-
----
-
-### 7. Portable Fixed-Width Integers (`<stdint.h>`)
-Standard C types vary in byte length across CPU architectures (e.g., `int` can be 16-bit or 32-bit). Fixed-width types guarantee uniform storage across all compilers:
-
-```text
-Memory Footprint Comparison (Device Telemetry Packet):
-┌────────────────────────────────────────────────────────┐
-│ Naive Telemetry (Standard int everywhere):  16 Bytes   │
-│ [int battery] [int status] [int temp] [int id]         │
-└────────────────────────────────────────────────────────┘
-┌────────────────────────────────────────────────────────┐
-│ Compact Telemetry (<stdint.h> Types):        6 Bytes   │
-│ [uint8_t] [uint8_t] [int16_t] [uint16_t]               │
-└────────────────────────────────────────────────────────┘
--> Result: 62.5% Reduction in RAM and Network Transmission Overhead!
+int perms = READ | WRITE; // Grant READ and WRITE
+perms |= EXEC;            // Add EXEC
+perms &= ~WRITE;          // Revoke WRITE
+if (perms & READ) { ... } // Check if READ is allowed
 ```
 
+### 7. Fixed-Width Integers (`<stdint.h>`)
+On some systems, an `int` might be 2 bytes, while on others it is 4 bytes. If you need exact sizes, `<stdint.h>` provides types with fixed widths:
+* `int8_t` / `uint8_t` (1 byte, 8 bits: -128..127 or 0..255)
+* `int16_t` / `uint16_t` (2 bytes, 16 bits)
+* `int32_t` / `uint32_t` (4 bytes, 32 bits)
+* `int64_t` / `uint64_t` (8 bytes, 64 bits)
+
+In embedded systems or sensor devices (like the battery monitor in problem 22), using `uint8_t` instead of a 4-byte `int` for percentage (0–100) saves 75% memory on that field alone!
+
 ---
 
-## 🚀 Compilation & Verification Protocol
+## 💻 How to Compile
 
-### Single File Compilation
+### Single File
 ```bash
-# Compile any single exercise
+# Example: Compile formatted date time program
 gcc -Wall -Wextra 03_formatted_datetime_strftime.c -lm -o 03_formatted_datetime_strftime
 ./03_formatted_datetime_strftime
 ```
 
-### Multi-File Compilation
+### Multi-File Programs
 ```bash
 # Problem 12: Modular Calculator
 gcc -Wall -Wextra 12_calculator_main.c 12_calculator_module.c -lm -o 12_calculator
@@ -212,33 +159,32 @@ gcc -Wall -Wextra 16_extern_storage_class_main.c 16_extern_storage_class_data.c 
 ./16_extern_storage_class
 ```
 
-### Automated Batch Verification Script
-Run this script to verify that all 22 exercises compile and pass cleanly:
+### Test Everything at Once
 ```bash
-for file in [0-2]*.c; do
-    if [ "$file" = "12_calculator_main.c" ]; then
-        gcc -Wall -Wextra 12_calculator_main.c 12_calculator_module.c -lm -o bin_test && ./bin_test > /dev/null
-    elif [ "$file" = "12_calculator_module.c" ] || [ "$file" = "16_extern_storage_class_data.c" ]; then
-        gcc -Wall -Wextra -c "$file" -o /dev/null
+for f in [0-2]*.c; do
+    if [ "$f" = "12_calculator_main.c" ]; then
+        gcc -Wall -Wextra 12_calculator_main.c 12_calculator_module.c -lm -o test_bin && ./test_bin > /dev/null
+    elif [ "$f" = "12_calculator_module.c" ] || [ "$f" = "16_extern_storage_class_data.c" ]; then
+        gcc -Wall -Wextra -c "$f" -o /dev/null
         continue
-    elif [ "$file" = "16_extern_storage_class_main.c" ]; then
-        gcc -Wall -Wextra 16_extern_storage_class_main.c 16_extern_storage_class_data.c -lm -o bin_test && ./bin_test > /dev/null
+    elif [ "$f" = "16_extern_storage_class_main.c" ]; then
+        gcc -Wall -Wextra 16_extern_storage_class_main.c 16_extern_storage_class_data.c -lm -o test_bin && ./test_bin > /dev/null
     else
-        gcc -Wall -Wextra "$file" -lm -o bin_test && ./bin_test > /dev/null
+        gcc -Wall -Wextra "$f" -lm -o test_bin && ./test_bin > /dev/null
     fi
-    rm -f bin_test
-    echo "✅ Passed: $file"
+    rm -f test_bin
+    echo "OK: $f"
 done
 ```
 
 ---
 
-## 👤 Academic Credentials
+## 👨‍🎓 Student Info
 
-* **Student:** Suleman Ahmed Shuvo
-* **Class Roll:** 43
-* **Undergraduate Batch:** CSE-19
-* **Academic Session:** 2025-26
-* **Department:** Computer Science & Engineering (CSE)
-* **Institution:** Sylhet Engineering College (SEC)
-* **Affiliation:** Shahjalal University of Science & Technology (SUST)
+* **Student:** [Suleman Ahmed Shuvo](https://github.com/cyanoge1-netizen)
+* **Roll:** 43
+* **Batch:** CSE-19
+* **Session:** 2025-26
+* **Department:** [Computer Science & Engineering](https://www.sec.ac.bd/)
+* **College:** [Sylhet Engineering College (SEC)](https://www.sec.ac.bd/)
+* **Affiliation:** [Shahjalal University of Science & Technology (SUST)](https://www.sust.edu/)

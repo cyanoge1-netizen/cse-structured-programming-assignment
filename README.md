@@ -1,220 +1,168 @@
 # <p align="center">Department of Computer Science & Engineering<br><sub>Sylhet Engineering College (SEC) — Affiliated with SUST</sub></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" alt="ANSI C Logo"/>
+  <a href="https://en.cppreference.com/w/c"><img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="85" alt="ANSI C Logo"/></a>
 </p>
 
 <h1 align="center">Structured Programming Language (CSE 1101)</h1>
-<p align="center"><b>Comprehensive Laboratory Modules, Course Assignments & Advanced C Systems Implementations</b></p>
+<p align="center">Course Assignments, Lab Exercises & Practice Problem Solutions in C</p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/C-ANSI%20%2F%20C99-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Standard"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Compiler-GCC%2011%2B%20%7C%20Clang-brightgreen?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Compiler"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Build-Passing%20100%25-success?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Verification-Zero%20Warnings-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verification"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Course-CSE%201101-blueviolet?style=for-the-badge&logo=open-book&logoColor=white" alt="Course"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Platform-Linux%20%7C%20POSIX-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Platform"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/SEC-Sylhet%20Engineering%20College-E23D28?style=for-the-badge" alt="Institution"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/License-Academic%20Open%20Source-orange?style=for-the-badge" alt="License"/></a>
+  <a href="https://en.cppreference.com/w/c"><img src="https://img.shields.io/badge/Language-ANSI%20C%20%2F%20C99-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Standard"/></a>
+  <a href="https://gcc.gnu.org/"><img src="https://img.shields.io/badge/Compiler-GCC%20%7C%20Clang-brightgreen?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="GCC"/></a>
+  <a href="https://www.sec.ac.bd/"><img src="https://img.shields.io/badge/College-Sylhet%20Engineering%20College-E23D28?style=for-the-badge&logo=googlemaps&logoColor=white" alt="SEC Official Website"/></a>
+  <a href="https://www.sust.edu/"><img src="https://img.shields.io/badge/Affiliation-SUST-006A4E?style=for-the-badge" alt="SUST Official Website"/></a>
+  <a href="https://www.w3schools.com/c/index.php"><img src="https://img.shields.io/badge/Curriculum-W3Schools%20C-04AA6D?style=for-the-badge&logo=w3schools&logoColor=white" alt="W3Schools C Tutorial"/></a>
+  <a href="https://github.com/cyanoge1-netizen"><img src="https://img.shields.io/badge/Author-Suleman%20Ahmed%20Shuvo-informational?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" alt="License"/></a>
 </p>
 
 ---
 
-## 📖 Executive Summary
+## 📌 About This Repository
 
-This repository houses the complete academic codebase, laboratory assignments, and structured practice banks for the **CSE 1101: Structured Programming Language** undergraduate curriculum at **Sylhet Engineering College (SEC)**, affiliated with **Shahjalal University of Science and Technology (SUST)**.
+This repository contains my C programming lab tasks, course assignments, and practice exercises for the **CSE 1101: Structured Programming Language** course at [Sylhet Engineering College (SEC)](https://www.sec.ac.bd/), under the [Department of Computer Science & Engineering](https://www.sec.ac.bd/). SEC is affiliated with [Shahjalal University of Science & Technology (SUST)](https://www.sust.edu/).
 
-All solutions are engineered from first principles in standard ANSI C / C99, demonstrating clean student-oriented coding paradigms, rigorous memory hygiene, and complete platform portability.
-
-> [!IMPORTANT]
-> **Compilation Standard & Quality Assurance:**  
-> Every program in this repository strictly compiles under `gcc -Wall -Wextra -lm` with **zero errors and zero warnings**. Defect-free memory access and edge-case validation are enforced across all modules.
-
-> [!TIP]
-> **Automated Verification:**  
-> Run the automated batch-verification script described in [Compilation Guide](#-getting-started--compilation-protocol) to compile and test every executable sequentially in your local terminal.
+All programs are written in standard ANSI C (C99), kept clean and readable, and compile without any errors or warnings using `gcc -Wall -Wextra -lm`.
 
 ---
 
-## 🗂️ Repository Directory Architecture
+## 📂 Repository Structure
 
 ```text
 cse-structured-programming-assignment/
-├── 📄 README.md                                  # Executive repository documentation & syllabus index
-├── 📄 prime_checker.c                            # Standalone laboratory assignment (Prime Verification)
+├── README.md                                  # Repository overview and index
+├── prime_checker.c                            # Lab exercise: efficient prime number check
 │
-├── 📂 Assignment_02/                             # ⭐ W3Schools C More Section (Assignment 2)
-│   ├── 📄 README.md                              # Comprehensive topic index & technical breakdown
-│   ├── 📄 01_current_time_calendar.c             # Calendar epoch time & ctime() string formatting
-│   ├── 📄 02_localtime_breakdown_tm_struct.c     # struct tm member breakdown with localtime()
-│   ├── 📄 03_formatted_datetime_strftime.c       # Custom timestamp formatting via strftime()
-│   ├── 📄 04_execution_time_measurement.c        # CPU clock benchmark & difftime() elapsed calculation
-│   ├── 📄 05_basic_rand_generator.c              # Pseudo-random generation & RAND_MAX determinism
-│   ├── 📄 06_seeded_random_generator.c           # Entropy seeding with srand(time(NULL))
-│   ├── 📄 07_bounded_range_random_numbers.c      # Modulo arithmetic mapping ([0,9], [1,100], [-20,45])
-│   ├── 📄 08_dice_roll_simulation.c              # Six-sided dice simulation with double-roll detection
-│   ├── 📄 09_object_like_macros_constants.c      # Preprocessor constants (PI, limits) & geometry
-│   ├── 📄 10_function_like_macros.c              # Parameterized macros & parenthesization traps
-│   ├── 📄 11_conditional_compilation_debug.c     # Conditional directives (#ifdef, #ifndef, loggers)
-│   ├── 📄 12_calculator_module.h                 # Modular interface header with include guards
-│   ├── 📄 12_calculator_module.c                 # Modular arithmetic implementation definitions
-│   ├── 📄 12_calculator_main.c                   # Multi-file consumer driver program
-│   ├── 📄 12_modular_calculator_demo.c           # Self-contained single-file modular concept demo
-│   ├── 📄 13_auto_storage_class.c                # Stack frame lifetime, scope & variable shadowing
-│   ├── 📄 14_static_local_storage_class.c        # Persistent static lifetime & bank balance ledger
-│   ├── 📄 15_register_storage_class.c            # CPU register optimization hints & address traps
-│   ├── 📄 16_extern_storage_class_data.c         # Multi-file shared global variable definitions
-│   ├── 📄 16_extern_storage_class_main.c         # External variable consumer & state mutator
-│   ├── 📄 16_extern_storage_class_demo.c         # Self-contained single-file external linkage demo
-│   ├── 📄 17_bitwise_and_or_xor.c                # Bitwise logic truth tables & 8-bit binary viewer
-│   ├── 📄 18_bitwise_not_and_twos_complement.c   # One's complement bit flip & two's complement math
-│   ├── 📄 19_bitwise_shift_operators.c           # Left/right bit shifts & fast 2^k arithmetic
-│   ├── 📄 20_bitwise_flags_and_permissions.c     # POSIX file permissions bitmask management system
-│   ├── 📄 21_fixed_width_integer_types.c         # <stdint.h> types (int8_t..uint64_t) & bit limits
-│   └── 📄 22_fixed_width_memory_optimization.c   # Embedded telemetry packet (62.5% memory reduction)
+├── Assignment_02/                             # Assignment 2: W3Schools C More Section
+│   ├── README.md                              # Detailed problem index & topic explanations
+│   ├── 01_current_time_calendar.c             # Current time and epoch seconds with time() & ctime()
+│   ├── 02_localtime_breakdown_tm_struct.c     # Breaking down date/time into struct tm fields
+│   ├── 03_formatted_datetime_strftime.c       # Custom date/time formatting with strftime()
+│   ├── 04_execution_time_measurement.c        # Measuring CPU execution time using clock()
+│   ├── 05_basic_rand_generator.c              # Basic rand() and RAND_MAX behavior
+│   ├── 06_seeded_random_generator.c           # Seeding random generator with srand(time(NULL))
+│   ├── 07_bounded_range_random_numbers.c      # Generating random numbers in custom ranges
+│   ├── 08_dice_roll_simulation.c              # Dice rolling simulation with double detection
+│   ├── 09_object_like_macros_constants.c      # Constants with #define (PI, buffer sizes)
+│   ├── 10_function_like_macros.c              # Function-like macros and parentheses safety
+│   ├── 11_conditional_compilation_debug.c     # #ifdef and #ifndef for debug logs
+│   ├── 12_calculator_module.h                 # Header file with prototypes & include guards
+│   ├── 12_calculator_module.c                 # Function implementations for calculator
+│   ├── 12_calculator_main.c                   # Main program calling calculator module
+│   ├── 12_modular_calculator_demo.c           # All-in-one demo of modular C concepts
+│   ├── 13_auto_storage_class.c                # auto storage class and block scope
+│   ├── 14_static_local_storage_class.c        # static variables preserving state across calls
+│   ├── 15_register_storage_class.c            # register keyword and address restrictions
+│   ├── 16_extern_storage_class_data.c         # Data file with global variables
+│   ├── 16_extern_storage_class_main.c         # Main file accessing extern variables
+│   ├── 16_extern_storage_class_demo.c         # Single-file demo of external linkage
+│   ├── 17_bitwise_and_or_xor.c                # Bitwise AND, OR, and XOR operations
+│   ├── 18_bitwise_not_and_twos_complement.c   # Bitwise NOT (~) and two's complement
+│   ├── 19_bitwise_shift_operators.c           # Left shift (<<) and right shift (>>)
+│   ├── 20_bitwise_flags_and_permissions.c     # Managing file permissions using bitmasks
+│   ├── 21_fixed_width_integer_types.c         # <stdint.h> types (int8_t, uint8_t, etc.)
+│   └── 22_fixed_width_memory_optimization.c   # Saving memory with uint8_t in telemetry data
 │
-├── 📂 W3Schools_C_Tutorial/                       # W3Schools Core Chapters (01 through 14)
-│   ├── 📄 README.md                              # Chapter index up to Pointers
-│   ├── 📂 01_Syntax_and_Output/                  # Hello world, newlines, and escape sequences
-│   ├── 📂 02_Variables_and_Data_Types/           # Format specifiers, data sizes, and casting
-│   ├── 📂 03_Constants/                          # Read-only const declarations
-│   ├── 📂 04_Operators/                          # Arithmetic, relational, logical, and precedence
-│   ├── 📂 05_Booleans/                           # stdbool.h and conditional truth evaluations
-│   ├── 📂 06_If_Else_Conditions/                 # Nested conditions and ternary expressions
-│   ├── 📂 07_Switch_Statement/                   # Weekday and grade mapping structures
-│   ├── 📂 08_While_Loops/                        # While and do-while loop iterators
-│   ├── 📂 09_For_Loops/                          # Nested for-loops and coordinate grids
-│   ├── 📂 10_Break_and_Continue/                 # Loop control branching
-│   ├── 📂 11_Arrays/                             # 1D arrays, multi-dimensional grids, statistics
-│   ├── 📂 12_Strings/                            # String manipulation and <string.h> functions
-│   ├── 📂 13_User_Input/                         # scanf vs fgets buffer-safe stream processing
-│   └── 📂 14_Pointers/                           # Memory addressing, dereferencing, and pointer math
+├── W3Schools_C_Tutorial/                       # Core chapters (01 through 14) up to pointers
+│   ├── README.md                              # Chapter index
+│   └── [01-14]_*/                             # Folders for variables, loops, arrays, strings, etc.
 │
-├── 📂 W3Schools_Basics_to_Loops/                  # Curated Foundational Problems (01-25)
-│   ├── 📄 README.md                              # Tabular index of problems 01 to 25
-│   └── 📄 [01-25]_*.c                            # Sequential solutions from syntax to nested loops
+├── W3Schools_Basics_to_Loops/                  # Foundational exercises (01 to 25)
+│   ├── README.md                              # Problem table
+│   └── [01-25]_*.c                            # Practice programs from basics up to nested loops
 │
-└── 📂 Basic_Declarations_and_Expressions/         # w3resource Problem Bank (Problems 01-20)
-    ├── 📄 README.md                              # Indexed problem bank descriptions
-    └── 📄 [01-20]_*.c                            # Fundamental I/O, formulas, math, and conditionals
+└── Basic_Declarations_and_Expressions/         # w3resource problem set (01 to 20)
+    ├── README.md                              # Problem descriptions
+    └── [01-20]_*.c                            # Programs covering formulas, math, and conditionals
 ```
 
 ---
 
-## 🎯 Course Curriculum & Assignment Breakdown
+## 📑 Sections & Assignments
 
-### 🌟 1. Assignment 2: W3Schools Advanced C Features (`Assignment_02/`)
-> *Scraped, rephrased, and expanded from W3Schools' official [C More Section](https://www.w3schools.com/c/c_date_time.php).*
+### 1. [Assignment 2: W3Schools Advanced Features (`Assignment_02/`)](./Assignment_02/)
+Complete implementations covering all 7 chapters in the [W3Schools C More](https://www.w3schools.com/c/c_date_time.php) section:
+* **Date & Time (`<time.h>`):** Getting current epoch time, breaking it down into `struct tm` (year, month, day, hours, minutes, seconds), and formatting it with `strftime()`. Also includes a benchmark program measuring CPU clock cycles with `clock()`.
+* **Random Numbers (`<stdlib.h>`):** How `rand()` works, why `srand(time(NULL))` is needed for unique numbers, formulas for custom ranges, and a dice roll simulator.
+* **Macros & Preprocessor:** Constants with `#define`, parameterized macros (showing why parenthesizing arguments is critical), and conditional compilation with `#ifdef DEBUG`.
+* **Modular Code:** Splitting code into `.h` header files with include guards, `.c` source files, and a `main.c` driver.
+* **Storage Classes:** Explaining `auto`, `static` (retaining values across calls), `register`, and `extern` (sharing variables across files).
+* **Bitwise Operators:** Working directly with bits (`&`, `|`, `^`, `~`, `<<`, `>>`), binary representation, and building a real permission flag system (`READ`, `WRITE`, `EXEC`).
+* **Fixed-Width Integers (`<stdint.h>`):** Platform-independent types (`int8_t` through `uint64_t`), format specifiers, and a memory comparison demo showing over 60% memory savings.
 
-| Chapter / Topic | Core Concepts | Files |
-|---|---|---|
-| **Date and Time** | `<time.h>`, `time()`, `ctime()`, `struct tm`, `localtime()`, `strftime()`, `clock()` | [`01`](./Assignment_02/01_current_time_calendar.c), [`02`](./Assignment_02/02_localtime_breakdown_tm_struct.c), [`03`](./Assignment_02/03_formatted_datetime_strftime.c), [`04`](./Assignment_02/04_execution_time_measurement.c) |
-| **Random Numbers** | `<stdlib.h>`, `rand()`, `RAND_MAX`, `srand(time(NULL))`, modulo range scaling, dice games | [`05`](./Assignment_02/05_basic_rand_generator.c), [`06`](./Assignment_02/06_seeded_random_generator.c), [`07`](./Assignment_02/07_bounded_range_random_numbers.c), [`08`](./Assignment_02/08_dice_roll_simulation.c) |
-| **Macros & Preprocessor** | Object-like macros, parameterized macros, precedence parentheses traps, `#ifdef` logging | [`09`](./Assignment_02/09_object_like_macros_constants.c), [`10`](./Assignment_02/10_function_like_macros.c), [`11`](./Assignment_02/11_conditional_compilation_debug.c) |
-| **Modular Code Organization**| Header files (`.h`), include guards (`#ifndef`), separate implementation (`.c`), multi-file build | [`12a`](./Assignment_02/12_calculator_module.h), [`12b`](./Assignment_02/12_calculator_module.c), [`12c`](./Assignment_02/12_calculator_main.c), [`12d`](./Assignment_02/12_modular_calculator_demo.c) |
-| **Storage Classes** | `auto` (local stack), `static` (persistent lifetime), `register` (CPU hints), `extern` (multi-file) | [`13`](./Assignment_02/13_auto_storage_class.c), [`14`](./Assignment_02/14_static_local_storage_class.c), [`15`](./Assignment_02/15_register_storage_class.c), [`16a-c`](./Assignment_02/16_extern_storage_class_main.c) |
-| **Bitwise Operators** | Truth tables (`&`, `\|`, `^`), two's complement inversion (`~`), bit shifts (`<<`, `>>`), POSIX flags | [`17`](./Assignment_02/17_bitwise_and_or_xor.c), [`18`](./Assignment_02/18_bitwise_not_and_twos_complement.c), [`19`](./Assignment_02/19_bitwise_shift_operators.c), [`20`](./Assignment_02/20_bitwise_flags_and_permissions.c) |
-| **Fixed-Width Integers** | `<stdint.h>`, `int8_t` through `uint64_t`, format specifiers, embedded memory optimization | [`21`](./Assignment_02/21_fixed_width_integer_types.c), [`22`](./Assignment_02/22_fixed_width_memory_optimization.c) |
+👉 For full code explanations and notes, check out the [Assignment 2 README](./Assignment_02/README.md).
 
-👉 **Full Details & Detailed Table:** See the dedicated [**Assignment 2 README**](./Assignment_02/README.md).
+### 2. [W3Schools Core Tutorial (`W3Schools_C_Tutorial/`)](./W3Schools_C_Tutorial/)
+Covers Chapters 01 to 14 of the W3Schools C tutorial, from basic output and operators to multidimensional arrays, strings, user input, and pointers.
 
----
-
-### 📚 2. Core W3Schools Tutorial Implementations (`W3Schools_C_Tutorial/`)
-Comprehensive textbook implementations spanning Chapters 01 to 14:
-* **Syntax, Output & Comments:** Fundamental structure, escape sequences, and ANSI formatting.
-* **Data Types, Variables & Constants:** Explicit casting, memory queries with `sizeof`, and `const` variables.
-* **Operators & Booleans:** Short-circuit logic, operator precedence, and relational comparisons.
-* **Control Flow:** `if-else` ladders, switch-case evaluators, `while`, `do-while`, and nested `for` loops.
-* **Arrays & Strings:** Matrix transformations, statistical aggregations, and null-terminated string buffers.
-* **Pointers & Memory:** Dereferencing, pointer arithmetic, array decay, and indirect variable modification.
+### 3. [Basic Declarations & Expressions (`Basic_Declarations_and_Expressions/`)](./Basic_Declarations_and_Expressions/)
+Solutions to 20 foundational problems from w3resource covering arithmetic, quadratic equations (Bhaskara formula), coordinate distances, and bank note breakdowns.
 
 ---
 
-### 🧪 3. Practice & Lab Assignments
-* **[`prime_checker.c`](./prime_checker.c):** An optimized prime-testing algorithm featuring $O(\sqrt{n})$ division skipping even multiples.
-* **[`Basic_Declarations_and_Expressions/`](./Basic_Declarations_and_Expressions/):** 20 classic w3resource problems covering currency breakdown, quadratic Bhaskara formula, coordinate distance, and time conversions.
-* **[`W3Schools_Basics_to_Loops/`](./W3Schools_Basics_to_Loops/):** 25 student-crafted exercises focusing on iterative problem-solving and algorithmic thinking.
+## 💻 How to Compile and Run
 
----
-
-## 🚀 Getting Started & Compilation Protocol
-
-### Prerequisites
-Ensure you have a standard GCC or Clang toolchain installed:
+Make sure you have GCC installed:
 ```bash
 gcc --version
 ```
 
-### 1. Cloning the Repository
+### Compile Any Single File
 ```bash
-git clone git@github.com:cyanoge1-netizen/cse-structured-programming-assignment.git
-cd cse-structured-programming-assignment
-```
-
-### 2. Compiling Standalone Programs
-To compile any standalone program with full warnings enabled:
-```bash
+# Example: Compile the strftime date/time program
 gcc -Wall -Wextra Assignment_02/03_formatted_datetime_strftime.c -lm -o strftime_demo
 ./strftime_demo
 ```
 
-### 3. Compiling Multi-File Modular Modules
+### Compile Multi-File Programs
 ```bash
-# Modular Calculator (Problem 12)
+# Problem 12: Modular Calculator (Main + Module)
 gcc -Wall -Wextra Assignment_02/12_calculator_main.c Assignment_02/12_calculator_module.c -lm -o calculator_app
 ./calculator_app
 
-# External Linkage Demo (Problem 16)
+# Problem 16: External Storage Class (Main + Data)
 gcc -Wall -Wextra Assignment_02/16_extern_storage_class_main.c Assignment_02/16_extern_storage_class_data.c -lm -o extern_demo
 ./extern_demo
 ```
 
-### 4. Running Full Suite Batch Verification
-To verify that 100% of programs in Assignment 2 compile cleanly with zero errors:
+### Batch Verify All Programs
+To quickly check that every program compiles and runs with zero issues:
 ```bash
 cd Assignment_02
-for file in [0-2]*.c; do
-    if [ "$file" = "12_calculator_main.c" ]; then
+for f in [0-2]*.c; do
+    if [ "$f" = "12_calculator_main.c" ]; then
         gcc -Wall -Wextra 12_calculator_main.c 12_calculator_module.c -lm -o test_bin && ./test_bin > /dev/null
-    elif [ "$file" = "12_calculator_module.c" ] || [ "$file" = "16_extern_storage_class_data.c" ]; then
-        gcc -Wall -Wextra -c "$file" -o /dev/null
+    elif [ "$f" = "12_calculator_module.c" ] || [ "$f" = "16_extern_storage_class_data.c" ]; then
+        gcc -Wall -Wextra -c "$f" -o /dev/null
         continue
-    elif [ "$file" = "16_extern_storage_class_main.c" ]; then
+    elif [ "$f" = "16_extern_storage_class_main.c" ]; then
         gcc -Wall -Wextra 16_extern_storage_class_main.c 16_extern_storage_class_data.c -lm -o test_bin && ./test_bin > /dev/null
     else
-        gcc -Wall -Wextra "$file" -lm -o test_bin && ./test_bin > /dev/null
+        gcc -Wall -Wextra "$f" -lm -o test_bin && ./test_bin > /dev/null
     fi
     rm -f test_bin
-    echo "✅ Verified: $file"
+    echo "OK: $f"
 done
 ```
 
 ---
 
-## 👤 Academic & Student Credentials
+## 👨‍🎓 Student Details
 
-<div align="center">
-
-| Field | Student Academic Information |
+| Information | Details |
 | :--- | :--- |
-| **Student Name** | **Suleman Ahmed Shuvo** |
-| **Class Roll** | **43** |
-| **Undergraduate Batch** | **CSE-19** |
-| **Academic Session** | **2025-26** |
-| **Department** | **Computer Science and Engineering (CSE)** |
-| **Institution** | **Sylhet Engineering College (SEC)** |
-| **University Affiliation** | **Shahjalal University of Science and Technology (SUST)** |
-| **Curriculum Scope** | **CSE 1101: Structured Programming Language** |
-
-</div>
+| **Name** | [Suleman Ahmed Shuvo](https://github.com/cyanoge1-netizen) |
+| **Roll** | 43 |
+| **Batch** | CSE-19 |
+| **Session** | 2025-26 |
+| **Department** | [Computer Science & Engineering](https://www.sec.ac.bd/) |
+| **College** | [Sylhet Engineering College (SEC)](https://www.sec.ac.bd/) |
+| **University** | [Shahjalal University of Science & Technology (SUST)](https://www.sust.edu/) |
+| **Course** | CSE 1101: Structured Programming Language |
 
 ---
 
-## 📜 Academic Integrity & License
+## 📄 License
 
-This repository and all associated source codes are published under the **Academic Open Source License** for coursework evaluation, laboratory archival, and educational peer reference under the Department of Computer Science and Engineering at Sylhet Engineering College.
-
-<p align="center">
-  <sub>Maintained with ❤️ by <b>Suleman Ahmed Shuvo (Roll 43)</b> • Dept. of CSE, Sylhet Engineering College</sub>
-</p>
+This repository is maintained for academic coursework, lab submissions, and study reference under the [MIT License](https://opensource.org/licenses/MIT).
