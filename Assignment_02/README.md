@@ -19,6 +19,26 @@
 
 ---
 
+## 📑 Table of Contents
+
+* [📌 What is in this Assignment?](#-what-is-in-this-assignment)
+* [📑 Complete Problem Index](#-complete-problem-index)
+* [💡 Notes on What I Learned](#-notes-on-what-i-learned)
+  * [1. Working with Date and Time (`time.h`)](#1-working-with-date-and-time-timeh)
+  * [2. Random Numbers in C (`stdlib.h`)](#2-random-numbers-in-c-stdlibh)
+  * [3. Preprocessor Macros](#3-preprocessor-macros)
+  * [4. Organizing Code into Multiple Files](#4-organizing-code-into-multiple-files)
+  * [5. Storage Classes](#5-storage-classes)
+  * [6. Bitwise Operators & Bitmasking](#6-bitwise-operators--bitmasking)
+  * [7. Fixed-Width Integers (`stdint.h`)](#7-fixed-width-integers-stdinth)
+* [💻 How to Compile](#-how-to-compile)
+  * [Single File](#single-file)
+  * [Multi-File Programs](#multi-file-programs)
+  * [Test Everything at Once](#test-everything-at-once)
+* [👨‍🎓 Student Info](#-student-info)
+
+---
+
 ## 📌 What is in this Assignment?
 
 This directory contains code and practical implementations for the entire **C More** section of the [W3Schools C Tutorial](https://www.w3schools.com/c/c_date_time.php).
@@ -65,7 +85,7 @@ Every single file compiles cleanly with `gcc -Wall -Wextra -lm` with zero warnin
 
 ## 💡 Notes on What I Learned
 
-### 1. Working with Date and Time (`<time.h>`)
+### 1. Working with Date and Time (`time.h`)
 * `time(NULL)` returns the number of seconds since January 1, 1970 (Unix epoch).
 * To access human-friendly values like month, year, or day, pass it to `localtime()`. This fills a `struct tm`.
 * Watch out for two common quirks:
@@ -73,7 +93,7 @@ Every single file compiles cleanly with `gcc -Wall -Wextra -lm` with zero warnin
   * `tm_mon` is 0-indexed (`0` = January, `11` = December), so add `1` for the normal month number.
 * `strftime()` is much safer than `ctime()` because you give it a fixed buffer size, preventing buffer overflows.
 
-### 2. Random Numbers in C (`<stdlib.h>`)
+### 2. Random Numbers in C (`stdlib.h`)
 * By default, `rand()` uses a fixed seed (`1`), meaning it generates the exact same numbers every time you run the program.
 * Calling `srand(time(NULL))` at the start of `main()` seeds the generator with the current time, giving different numbers on every run.
 * **Important:** Don't call `srand()` inside a loop. If the loop runs within the same second, `time(NULL)` won't change, and `rand()` will keep resetting to the same value.
@@ -128,7 +148,7 @@ perms &= ~WRITE;          // Revoke WRITE
 if (perms & READ) { ... } // Check if READ is allowed
 ```
 
-### 7. Fixed-Width Integers (`<stdint.h>`)
+### 7. Fixed-Width Integers (`stdint.h`)
 On some systems, an `int` might be 2 bytes, while on others it is 4 bytes. If you need exact sizes, `<stdint.h>` provides types with fixed widths:
 * `int8_t` / `uint8_t` (1 byte, 8 bits: -128..127 or 0..255)
 * `int16_t` / `uint16_t` (2 bytes, 16 bits)

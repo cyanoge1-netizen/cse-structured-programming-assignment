@@ -19,7 +19,37 @@
 
 ---
 
-## 📌 What is in this Assignment?
+## 📑 Table of Contents
+
+* [📌 What is in this Chapter Guide?](#-what-is-in-this-chapter-guide)
+* [📑 Complete Chapter & Problem Index](#-complete-chapter--problem-index)
+  * [1. Syntax & Output](#1-syntax--output)
+  * [2. Variables & Data Types](#2-variables--data-types)
+  * [3. Constants](#3-constants)
+  * [4. Operators](#4-operators)
+  * [5. Booleans](#5-booleans)
+  * [6. If...Else Conditions](#6-ifelse-conditions)
+  * [7. Switch Statement](#7-switch-statement)
+  * [8. While Loops](#8-while-loops)
+  * [9. For Loops](#9-for-loops)
+  * [10. Break & Continue](#10-break--continue)
+  * [11. Arrays](#11-arrays)
+  * [12. Strings](#12-strings)
+  * [13. User Input](#13-user-input)
+  * [14. Memory Addresses & Pointers](#14-memory-addresses--pointers)
+* [💡 Notes on What I Learned](#-notes-on-what-i-learned)
+  * [1. Variables, Data Types & Casting](#1-variables-data-types--casting)
+  * [2. Loops and Flow Control](#2-loops-and-flow-control)
+  * [3. Arrays & Strings](#3-arrays--strings)
+  * [4. Pointers & Memory](#4-pointers--memory)
+* [💻 How to Compile and Run](#-how-to-compile-and-run)
+  * [Compile Any Single File](#compile-any-single-file)
+  * [Batch Verify All 14 Chapters](#batch-verify-all-14-chapters)
+* [👨‍🎓 Student Info](#-student-info)
+
+---
+
+## 📌 What is in this Chapter Guide?
 
 This directory contains complete, working C implementations covering the core foundational half of the [W3Schools C Tutorial](https://www.w3schools.com/c/index.php) (Chapters 01 through 14).
 
@@ -31,7 +61,8 @@ All 57 programs are organized into dedicated chapter folders and compile cleanly
 
 ## 📑 Complete Chapter & Problem Index
 
-### 1. Syntax & Output ([`01_Syntax_and_Output/`](./01_Syntax_and_Output/))
+### 1. Syntax & Output
+*Directory:* [`01_Syntax_and_Output/`](./01_Syntax_and_Output/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_hello_world.c`](./01_Syntax_and_Output/01_hello_world.c) | Hello World | Basic C program skeleton, `#include <stdio.h>`, and `printf()` text output. | `PASS` |
@@ -39,7 +70,8 @@ All 57 programs are organized into dedicated chapter folders and compile cleanly
 | [`03_escape_sequences.c`](./01_Syntax_and_Output/03_escape_sequences.c) | Escape Characters | Practical examples of `\n` (newline), `\t` (tab), `\\` (backslash), and `\"` (quotes). | `PASS` |
 | [`04_comments_usage.c`](./01_Syntax_and_Output/04_comments_usage.c) | Code Comments | Single-line (`//`) and multi-line (`/* */`) comments for documenting code. | `PASS` |
 
-### 2. Variables & Data Types ([`02_Variables_and_Data_Types/`](./02_Variables_and_Data_Types/))
+### 2. Variables & Data Types
+*Directory:* [`02_Variables_and_Data_Types/`](./02_Variables_and_Data_Types/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_variable_declaration.c`](./02_Variables_and_Data_Types/01_variable_declaration.c) | Declarations | Declaring and initializing `int`, `float`, `double`, and `char` variables. | `PASS` |
@@ -51,13 +83,15 @@ All 57 programs are organized into dedicated chapter folders and compile cleanly
 | [`07_type_conversion.c`](./02_Variables_and_Data_Types/07_type_conversion.c) | Type Casting | Implicit conversion vs explicit casting `(float)a / b` to stop integer truncation. | `PASS` |
 | [`08_reallife_student_data.c`](./02_Variables_and_Data_Types/08_reallife_student_data.c) | Student Record | Real-life student fee and score computation using mixed types. | `PASS` |
 
-### 3. Constants ([`03_Constants/`](./03_Constants/))
+### 3. Constants
+*Directory:* [`03_Constants/`](./03_Constants/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_constants_declaration.c`](./03_Constants/01_constants_declaration.c) | `const` Keyword | Declaring read-only variables that cannot be accidentally modified. | `PASS` |
 | [`02_circle_area_with_const.c`](./03_Constants/02_circle_area_with_const.c) | Circle Math | Calculating circumference and area using `const float PI = 3.14159f`. | `PASS` |
 
-### 4. Operators ([`04_Operators/`](./04_Operators/))
+### 4. Operators
+*Directory:* [`04_Operators/`](./04_Operators/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_arithmetic_operators.c`](./04_Operators/01_arithmetic_operators.c) | Basic Arithmetic | Addition, subtraction, multiplication, integer division, modulo `%`, and increment `++`. | `PASS` |
@@ -66,14 +100,16 @@ All 57 programs are organized into dedicated chapter folders and compile cleanly
 | [`04_logical_operators.c`](./04_Operators/04_logical_operators.c) | Logical Ops | Boolean logic: AND (`&&`), OR (`\|\|`), and NOT (`!`). | `PASS` |
 | [`05_operator_precedence.c`](./04_Operators/05_operator_precedence.c) | Precedence | Order of evaluation and using parentheses `()` to avoid calculation mistakes. | `PASS` |
 
-### 5. Booleans ([`05_Booleans/`](./05_Booleans/))
+### 5. Booleans
+*Directory:* [`05_Booleans/`](./05_Booleans/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_boolean_basics.c`](./05_Booleans/01_boolean_basics.c) | `<stdbool.h>` | Using `bool`, `true` (1), and `false` (0) in standard C99. | `PASS` |
 | [`02_boolean_expressions.c`](./05_Booleans/02_boolean_expressions.c) | Truth Evaluation | Evaluating relational expressions directly into boolean values. | `PASS` |
 | [`03_reallife_voting_age.c`](./05_Booleans/03_reallife_voting_age.c) | Eligibility Check | Real-life check validating citizen voting eligibility based on age. | `PASS` |
 
-### 6. If...Else Conditions ([`06_If_Else_Conditions/`](./06_If_Else_Conditions/))
+### 6. If...Else Conditions
+*Directory:* [`06_If_Else_Conditions/`](./06_If_Else_Conditions/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_simple_if.c`](./06_If_Else_Conditions/01_simple_if.c) | Simple `if` | Executing a code block only when a given condition evaluates to true. | `PASS` |
@@ -83,34 +119,39 @@ All 57 programs are organized into dedicated chapter folders and compile cleanly
 | [`05_nested_if.c`](./06_If_Else_Conditions/05_nested_if.c) | Nested Decisions | Placing `if` statements inside another `if` block for multi-layer validation. | `PASS` |
 | [`06_reallife_passcode_and_numbers.c`](./06_If_Else_Conditions/06_reallife_passcode_and_numbers.c) | Security PIN Check | Validating door passcode and checking whether a number is positive/negative/even/odd. | `PASS` |
 
-### 7. Switch Statement ([`07_Switch_Statement/`](./07_Switch_Statement/))
+### 7. Switch Statement
+*Directory:* [`07_Switch_Statement/`](./07_Switch_Statement/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_day_of_week.c`](./07_Switch_Statement/01_day_of_week.c) | Day Lookup | Mapping integer day numbers (1–7) to weekday names with a `default` case. | `PASS` |
 | [`02_grade_evaluator.c`](./07_Switch_Statement/02_grade_evaluator.c) | Letter Grades | Grouping multiple letter grades using switch fallthrough without duplicate code. | `PASS` |
 
-### 8. While Loops ([`08_While_Loops/`](./08_While_Loops/))
+### 8. While Loops
+*Directory:* [`08_While_Loops/`](./08_While_Loops/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_while_loop_counter.c`](./08_While_Loops/01_while_loop_counter.c) | Basic While | Repeating a block of statements while the test condition remains true. | `PASS` |
 | [`02_do_while_loop.c`](./08_While_Loops/02_do_while_loop.c) | Do-While | Post-tested loop guaranteed to execute at least once before checking condition. | `PASS` |
 | [`03_reallife_countdown_and_dice.c`](./08_While_Loops/03_reallife_countdown_and_dice.c) | Countdown Loop | Simulating a rocket launch countdown timer and even-number traversal. | `PASS` |
 
-### 9. For Loops ([`09_For_Loops/`](./09_For_Loops/))
+### 9. For Loops
+*Directory:* [`09_For_Loops/`](./09_For_Loops/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_for_loop_basics.c`](./09_For_Loops/01_for_loop_basics.c) | For Loop | Counting up, stepping by increments (`i += 2`), and counting down. | `PASS` |
 | [`02_nested_for_loops.c`](./09_For_Loops/02_nested_for_loops.c) | 2D Coordinates | Nested loop iteration generating 2D grid coordinates and star triangles. | `PASS` |
 | [`03_reallife_multiplication_table.c`](./09_For_Loops/03_reallife_multiplication_table.c) | Math Table | Formatted single-column multiplication table generator for any integer. | `PASS` |
 
-### 10. Break & Continue ([`10_Break_and_Continue/`](./10_Break_and_Continue/))
+### 10. Break & Continue
+*Directory:* [`10_Break_and_Continue/`](./10_Break_and_Continue/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_break_in_loops.c`](./10_Break_and_Continue/01_break_in_loops.c) | `break` Keyword | Immediately exiting a loop when an early termination condition is met. | `PASS` |
 | [`02_continue_in_loops.c`](./10_Break_and_Continue/02_continue_in_loops.c) | `continue` Keyword | Skipping the remainder of the current loop pass and jumping to the next iteration. | `PASS` |
 | [`03_break_continue_while.c`](./10_Break_and_Continue/03_break_continue_while.c) | Loop Safety | Managing loop counters correctly with `continue` inside `while` loops to avoid infinite loops. | `PASS` |
 
-### 11. Arrays ([`11_Arrays/`](./11_Arrays/))
+### 11. Arrays
+*Directory:* [`11_Arrays/`](./11_Arrays/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_array_basics.c`](./11_Arrays/01_array_basics.c) | Array Indexing | Declaring, initializing, accessing (0-indexed), and updating 1D array elements. | `PASS` |
@@ -119,7 +160,8 @@ All 57 programs are organized into dedicated chapter folders and compile cleanly
 | [`04_lowest_highest_element.c`](./11_Arrays/04_lowest_highest_element.c) | Min & Max | Linear scan algorithm finding the lowest and highest number in a dataset. | `PASS` |
 | [`05_multidimensional_arrays.c`](./11_Arrays/05_multidimensional_arrays.c) | 2D Arrays | Declaring matrices, accessing rows/columns `matrix[i][j]`, and nested traversal. | `PASS` |
 
-### 12. Strings ([`12_Strings/`](./12_Strings/))
+### 12. Strings
+*Directory:* [`12_Strings/`](./12_Strings/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_string_basics.c`](./12_Strings/01_string_basics.c) | Character Arrays | Null-terminated string anatomy (`\0`), declaring string literals, and `%s`. | `PASS` |
@@ -127,14 +169,16 @@ All 57 programs are organized into dedicated chapter folders and compile cleanly
 | [`03_special_characters.c`](./12_Strings/03_special_characters.c) | String Escapes | Handling quotes, newlines, and backslashes cleanly inside string literals. | `PASS` |
 | [`04_string_functions.c`](./12_Strings/04_string_functions.c) | `<string.h>` | Standard library string tools: `strlen()`, `strcpy()`, `strcat()`, and `strcmp()`. | `PASS` |
 
-### 13. User Input ([`13_User_Input/`](./13_User_Input/))
+### 13. User Input
+*Directory:* [`13_User_Input/`](./13_User_Input/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_single_and_multiple_input.c`](./13_User_Input/01_single_and_multiple_input.c) | `scanf()` Basics | Reading integer and character values from standard input with address `&`. | `PASS` |
 | [`02_string_input_scanf_vs_fgets.c`](./13_User_Input/02_string_input_scanf_vs_fgets.c) | Safe Line Input | Comparing `scanf()` (stops at spaces) vs `fgets()` (reads full lines safely). | `PASS` |
 | [`03_reallife_user_profile.c`](./13_User_Input/03_reallife_user_profile.c) | User Profile | Prompting and reading multiple user attributes in a clean command-line form. | `PASS` |
 
-### 14. Memory Addresses & Pointers ([`14_Memory_Addresses_and_Pointers/`](./14_Memory_Addresses_and_Pointers/))
+### 14. Memory Addresses & Pointers
+*Directory:* [`14_Memory_Addresses_and_Pointers/`](./14_Memory_Addresses_and_Pointers/)
 | File | Topic | What the Code Does | Status |
 |---|---|---|:---:|
 | [`01_memory_address.c`](./14_Memory_Addresses_and_Pointers/01_memory_address.c) | Address Operator | Inspecting hexadecimal RAM memory addresses using `&` and `%p`. | `PASS` |

@@ -19,6 +19,22 @@
 
 ---
 
+## 📑 Table of Contents
+
+* [📌 What is in this Assignment?](#-what-is-in-this-assignment)
+* [📑 Complete Problem Index](#-complete-problem-index)
+* [💡 Notes on What I Learned](#-notes-on-what-i-learned)
+  * [1. Variables, Data Types & Format Specifiers](#1-variables-data-types--format-specifiers)
+  * [2. Constants & Good Practices](#2-constants--good-practices)
+  * [3. Decisions & Branching](#3-decisions--branching)
+  * [4. Choosing the Right Loop](#4-choosing-the-right-loop)
+* [💻 How to Compile and Run](#-how-to-compile-and-run)
+  * [Single File Compilation](#single-file-compilation)
+  * [Batch Verify All 25 Programs](#batch-verify-all-25-programs)
+* [👨‍🎓 Student Info](#-student-info)
+
+---
+
 ## 📌 What is in this Assignment?
 
 This directory contains standalone, student-crafted C implementations for the core foundational topics from the [W3Schools C Tutorial](https://www.w3schools.com/c/index.php).

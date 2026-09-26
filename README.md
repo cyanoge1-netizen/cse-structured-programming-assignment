@@ -19,6 +19,25 @@
 
 ---
 
+## 📑 Table of Contents
+
+* [📌 About This Repository](#-about-this-repository)
+* [📂 Repository Structure](#-repository-structure)
+* [📑 Course Assignments & Practice Sections](#-course-assignments--practice-sections)
+  * [1. Assignment 1: W3Schools Basics to Loops (`Assignment_01/`)](#1-assignment-1-w3schools-basics-to-loops-assignment_01)
+  * [2. Assignment 2: W3Schools Advanced Features (`Assignment_02/`)](#2-assignment-2-w3schools-advanced-features-assignment_02)
+  * [3. W3Schools C Tutorial: Chapter Guide (`W3Schools_C_Tutorial/`)](#3-w3schools-c-tutorial-chapter-guide-w3schools_c_tutorial)
+  * [4. Practice: Basic Declarations & Expressions (w3resource)](#4-practice-basic-declarations--expressions-w3resource)
+  * [5. Laboratory: Prime Checker (`prime_checker.c`)](#5-laboratory-prime-checker-prime_checkerc)
+* [💻 How to Compile and Run](#-how-to-compile-and-run)
+  * [Compile Any Single File](#compile-any-single-file)
+  * [Compile Multi-File Programs](#compile-multi-file-programs)
+  * [Batch Verify All Programs](#batch-verify-all-programs)
+* [👨‍🎓 Student Details](#-student-details)
+* [📄 License](#-license)
+
+---
+
 ## 📌 About This Repository
 
 This repository contains my C programming lab tasks, course assignments, and practice exercises for the **CSE 1101: Structured Programming Language** course at [Sylhet Engineering College (SEC)](https://www.sec.ac.bd/), under the [Department of Computer Science & Engineering](https://www.sec.ac.bd/). SEC is affiliated with [Shahjalal University of Science & Technology (SUST)](https://www.sust.edu/).
