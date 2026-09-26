@@ -183,8 +183,7 @@ done
 
 ---
 
-<a id="about-me"></a>
-## 👨‍🎓 About Me
+## 👨‍🎓 About Me <a id="about-me"></a>
 
 | Information | Details |
 | :--- | :--- |
