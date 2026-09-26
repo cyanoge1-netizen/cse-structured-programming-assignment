@@ -33,7 +33,7 @@
   * [Compile Any Single File](#compile-any-single-file)
   * [Compile Multi-File Programs](#compile-multi-file-programs)
   * [Batch Verify All Programs](#batch-verify-all-programs)
-* [👨‍🎓 Student Details](#-student-details)
+* [👨‍🎓 About Me](#-about-me)
 * [📄 License](#-license)
 
 ---
@@ -183,7 +183,7 @@ done
 
 ---
 
-## 👨‍🎓 Student Details
+## 👨‍🎓 About Me
 
 | Information | Details |
 | :--- | :--- |

@@ -35,7 +35,7 @@
   * [Single File](#single-file)
   * [Multi-File Programs](#multi-file-programs)
   * [Test Everything at Once](#test-everything-at-once)
-* [👨‍🎓 Student Info](#-student-info)
+* [👨‍🎓 About Me](#-about-me)
 
 ---
 
@@ -199,9 +199,9 @@ done
 
 ---
 
-## 👨‍🎓 Student Info
+## 👨‍🎓 About Me
 
-* **Student:** [Suleman Ahmed Shuvo](https://github.com/cyanoge1-netizen)
+* **Name:** [Suleman Ahmed Shuvo](https://github.com/cyanoge1-netizen)
 * **Roll:** 43
 * **Batch:** CSE-19
 * **Session:** 2025-26
