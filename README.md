@@ -23,12 +23,16 @@ This repository contains C programming assignments and lab tasks for the **Struc
 
 ## 📂 Repository Sections
 
-### 1. Lab Assignments
+### 1. Course Assignments
 * [`prime_checker.c`](./prime_checker.c) - A robust C program that takes a positive integer input and determines whether it is a prime number.
+* [**Assignment 2: W3Schools Advanced C Features (C More Section)**](./Assignment_02/)
+  * Comprehensive solutions covering Date & Time (`<time.h>`), Random Numbers (`<stdlib.h>`), Preprocessor Macros, Modular Programming, Storage Classes (`auto`, `static`, `register`, `extern`), Bitwise Operations, and Fixed-Width Integers (`<stdint.h>`).
 
-### 2. Practice Exercises (w3resource)
-* [**Basic Declarations and Expressions**](./Basic_Declarations_and_Expressions/)
+### 2. Practice Exercises
+* [**Basic Declarations and Expressions (w3resource)**](./Basic_Declarations_and_Expressions/)
   * Contains individual solutions for Problems 01 through 20 covering basic I/O, operators, math functions, conditionals, and expressions.
+* [**W3Schools Core C Practice (Basics to Loops)**](./W3Schools_Basics_to_Loops/)
+  * Contains foundational C solutions for Problems 01 through 25 covering basic syntax, data types, operators, conditionals, and loop structures.
 
 ### 3. W3Schools C Tutorial Examples (Up to Pointers)
 * [**W3Schools C Tutorial**](./W3Schools_C_Tutorial/)
