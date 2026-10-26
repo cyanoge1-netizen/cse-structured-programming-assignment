@@ -26,9 +26,10 @@
 * [📑 Course Assignments & Practice Sections](#-course-assignments--practice-sections)
   * [1. Assignment 1: W3Schools Basics to Loops (`Assignment_01/`)](#1-assignment-1-w3schools-basics-to-loops-assignment_01)
   * [2. Assignment 2: W3Schools Advanced Features (`Assignment_02/`)](#2-assignment-2-w3schools-advanced-features-assignment_02)
-  * [3. W3Schools C Tutorial: Chapter Guide (`W3Schools_C_Tutorial/`)](#3-w3schools-c-tutorial-chapter-guide-w3schools_c_tutorial)
-  * [4. Practice: Basic Declarations & Expressions (w3resource)](#4-practice-basic-declarations--expressions-w3resource)
-  * [5. Laboratory: Prime Checker (`prime_checker.c`)](#5-laboratory-prime-checker-prime_checkerc)
+  * [3. Assignment 3: Organisation Management System (`Assignment_03/`)](#3-assignment-3-organisation-management-system-assignment_03)
+  * [4. W3Schools C Tutorial: Chapter Guide (`W3Schools_C_Tutorial/`)](#4-w3schools-c-tutorial-chapter-guide-w3schools_c_tutorial)
+  * [5. Practice: Basic Declarations & Expressions (w3resource)](#5-practice-basic-declarations--expressions-w3resource)
+  * [6. Laboratory: Prime Checker (`prime_checker.c`)](#6-laboratory-prime-checker-prime_checkerc)
 * [💻 How to Compile and Run](#-how-to-compile-and-run)
   * [Compile Any Single File](#compile-any-single-file)
   * [Compile Multi-File Programs](#compile-multi-file-programs)
@@ -87,6 +88,10 @@ cse-structured-programming-assignment/
 │   ├── 21_fixed_width_integer_types.c         # <stdint.h> types (int8_t, uint8_t, etc.)
 │   └── 22_fixed_width_memory_optimization.c   # Saving memory with uint8_t in telemetry data
 │
+├── Assignment_03/                             # Assignment 3: Organisation Management System
+│   ├── README.md                              # Dedicated documentation and structure guide
+│   └── organisation.c                         # Complete menu-driven Organisation project using structs
+│
 ├── W3Schools_C_Tutorial/                       # Reference Manual: Core chapters (01 through 14)
 │   ├── README.md                              # Chapter index up to pointers
 │   └── [01-14]_*/                             # Folders for variables, loops, arrays, strings, etc.
@@ -125,13 +130,24 @@ Complete implementations covering all 7 chapters in the [W3Schools C More](https
 
 ---
 
-### 3. [W3Schools C Tutorial: Chapter Guide (`W3Schools_C_Tutorial/`)](./W3Schools_C_Tutorial/)
+### 3. [Assignment 3: Organisation Management System (`Assignment_03/`)](./Assignment_03/)
+A comprehensive project covering **C Structures (`struct`)**, nested data records, and array of structures in real-world application design:
+* **Domain Modeling:** Nested structures (`Date`, `Employee`, `Organisation`) managing organizational metadata and staff records.
+* **Operations:** Interactive menu interface supporting employee registration, dynamic search (by ID, substring name, designation), department filtering, multi-criteria sorting (`qsort`), in-place updates, and deletion.
+* **Analytics:** Financial breakdown computing monthly/annual payroll, department headcounts, and budget percentage utilization.
+* **Persistence:** File I/O for saving and loading complete organizational rosters.
+
+👉 See the complete index and notes in the [**Assignment 3 README**](./Assignment_03/README.md).
+
+---
+
+### 4. [W3Schools C Tutorial: Chapter Guide (`W3Schools_C_Tutorial/`)](./W3Schools_C_Tutorial/)
 A comprehensive textbook reference manual covering 14 core chapters from basic syntax up through memory pointers (`&`, `*`, array decay, and pointer arithmetic).
 
-### 4. [Practice: Basic Declarations & Expressions (w3resource)](./Basic_Declarations_and_Expressions/)
+### 5. [Practice: Basic Declarations & Expressions (w3resource)](./Basic_Declarations_and_Expressions/)
 Solutions to 20 foundational problems from w3resource covering basic arithmetic, quadratic equations (Bhaskara formula), coordinate Euclidean distance, and bank note breakdowns.
 
-### 5. [Laboratory: Prime Checker (`prime_checker.c`)](./prime_checker.c)
+### 6. [Laboratory: Prime Checker (`prime_checker.c`)](./prime_checker.c)
 A standalone laboratory task implementing an optimized $O(\sqrt{n})$ prime testing algorithm.
 
 ---
