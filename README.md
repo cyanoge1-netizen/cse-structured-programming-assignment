@@ -208,8 +208,8 @@ done
 | **Batch** | CSE-19 |
 | **Session** | 2025-26 |
 | **Department** | [Computer Science & Engineering](https://www.sec.ac.bd/) |
-| **College** | [Sylhet Engineering College (SEC)](https://www.sec.ac.bd/) |
-| **University** | [Shahjalal University of Science & Technology (SUST)](https://www.sust.edu/) |
+| **College** | [Sylhet Engineering College (SEC)](https://www.sec.ac.bd/) 
+ 
 | **Course** | CSE 1101: Structured Programming Language |
 
 ---
